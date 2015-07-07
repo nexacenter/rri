@@ -59,3 +59,18 @@ WHERE {
   ?mother <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Category-3AICT_topic> .
   ?daughter <http://www.w3.org/2000/01/rdf-schema#subClassOf> ?mother .
 }
+
+=== Contare occorrenze ICT topic ===
+
+SELECT ?a count(distinct ?person)
+WHERE {
+  ?person <http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Property-3AICT_topic_interest> ?a .
+}
+
+=== Contare occorrenze SHH topic ===
+
+SELECT ?a count(distinct ?person)
+WHERE {
+  ?person <http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Property-3ASSH_topic_interest> ?a .
+}
+

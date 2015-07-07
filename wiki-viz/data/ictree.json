@@ -1,4 +1,7 @@
 {
+ "name": "root",
+ "children": [
+{
  "name": "ICT_topic_interest",
  "children": [
    {"name": "Gaming and gamification technology", "size": 3},
@@ -28,4 +31,41 @@
    },
    {"name": "Robotics", "size": 4}
  ]
+},
+{
+ "name": "SSH_topic_interest",
+ "children": [
+   {
+     "name": "Humanities",
+     "children": [
+      {"name": "Archaeology", "size": 0},
+      {"name": "Ethics", "size": 0},
+      {"name": "History", "size": 0},
+      {"name": "Languages", "size": 0},
+      {"name": "Linguistics", "size": 0},
+      {"name": "Literature", "size": 0},
+      {"name": "Philosophy", "size": 0},
+      {"name": "Religion", "size": 0},
+      {"name": "Visual and performing arts", "size": 2}
+     ]
+   },
+   {
+     "name": "Social sciences",
+     "children": [
+      {"name": "Anthropology", "size": 0},
+      {"name": "Communication studies", "size": 1},
+      {"name": "Criminology", "size": 0},
+      {"name": "Economics", "size": 1},
+      {"name": "Ethnology", "size": 0},
+      {"name": "Human geography", "size": 0},
+      {"name": "Information studies", "size": 0},
+      {"name": "Law", "size": 1},
+      {"name": "Political science", "size": 0},
+      {"name": "Psychology", "size": 0},
+      {"name": "Sociology", "size": 1}
+     ]
+   }
+ ]
+}
+]
 }
