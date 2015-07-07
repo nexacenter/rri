@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<body>
+    <input id="one" type="button" value="How would you define what is irresponsible research?" onclick="doClouds('score','data/irresponsible.json');" />
+    <input id="two" type="button" value="What does a responsible approach to research and innovation mean in your project? What does it entail?" onclick="doClouds('score','data/responsible.json');" />
+    <input id="three" type="button" value="Consolidated answers" onclick="doClouds('score','data/consolidatedAnswer.json');" />
+    <br><br>
+    <div id="cloud"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="scripts/tagcloud.js"></script>
+    <script src="scripts/tagcloud_init.js"></script>
+</body>

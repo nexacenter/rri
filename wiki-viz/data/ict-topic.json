@@ -1,0 +1,22 @@
+
+{ "head": { "link": [], "vars": ["name", "ict"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "name": { "type": "literal", "value": "Diana Raspoet" }	, "ict": { "type": "uri", "value": "http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Robotics" }},
+    { "name": { "type": "literal", "value": "Diana Raspoet" }	, "ict": { "type": "uri", "value": "http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Human-2Dmachine_interaction" }},
+    { "name": { "type": "literal", "value": "Diana Raspoet" }	, "ict": { "type": "uri", "value": "http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Internet_of_Things" }},
+    { "name": { "type": "literal", "value": "Diana Raspoet" }	, "ict": { "type": "uri", "value": "http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Open_Innovation_in_ICT" }},
+    { "name": { "type": "literal", "value": "Diana Raspoet" }	, "ict": { "type": "uri", "value": "http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Gaming_and_gamification_technology" }},
+    { "name": { "type": "literal", "value": "User:Federico Morando" }	, "ict": { "type": "uri", "value": "http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Open_Innovation_in_ICT" }},
+    { "name": { "type": "literal", "value": "User:Federico Morando" }	, "ict": { "type": "uri", "value": "http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Robotics" }},
+    { "name": { "type": "literal", "value": "User:Federico Morando" }	, "ict": { "type": "uri", "value": "http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Internet_of_Things" }},
+    { "name": { "type": "literal", "value": "User:IMAL" }	, "ict": { "type": "uri", "value": "http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Micro_nano_and_photonic_technology" }},
+    { "name": { "type": "literal", "value": "User:IMAL" }	, "ict": { "type": "uri", "value": "http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/ICT_Cross-2DCutting_topic" }},
+    { "name": { "type": "literal", "value": "User:IMAL" }	, "ict": { "type": "uri", "value": "http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Human-2Dmachine_interaction" }},
+    { "name": { "type": "literal", "value": "User:IMAL" }	, "ict": { "type": "uri", "value": "http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Gaming_and_gamification_technology" }},
+    { "name": { "type": "literal", "value": "User:IMAL" }	, "ict": { "type": "uri", "value": "http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Robotics" }},
+    { "name": { "type": "literal", "value": "User:Marika L\u00FCders" }	, "ict": { "type": "uri", "value": "http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Human-2Dcomputer_interaction" }},
+    { "name": { "type": "literal", "value": "User:Raimondo Iemma" }	, "ict": { "type": "uri", "value": "http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Open_Innovation_in_ICT" }},
+    { "name": { "type": "literal", "value": "User:Raimondo Iemma" }	, "ict": { "type": "uri", "value": "http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/ICT_Cross-2DCutting_topic" }},
+    { "name": { "type": "literal", "value": "User:Roger Torrenti" }	, "ict": { "type": "uri", "value": "http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Gaming_and_gamification_technology" }},
+    { "name": { "type": "literal", "value": "User:Roger Torrenti" }	, "ict": { "type": "uri", "value": "http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/ICT_Cross-2DCutting_topic" }},
+    { "name": { "type": "literal", "value": "User:Roger Torrenti" }	, "ict": { "type": "uri", "value": "http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Robotics" }} ] } }

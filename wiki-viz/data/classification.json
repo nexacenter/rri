@@ -1,0 +1,1141 @@
+{
+    "Acronym": [
+        {
+            "key": "Ruby (hardware description language)",
+            "score": "1.3888472"
+        },
+        {
+            "key": "Binary Format Description language",
+            "score": "1.2580479"
+        },
+        {
+            "key": "Motif description",
+            "score": "1.2580479"
+        },
+        {
+            "key": "Storage model",
+            "score": "1.2180996"
+        },
+        {
+            "key": "Page description markup language",
+            "score": "1.1889911"
+        },
+        {
+            "key": "D3L",
+            "score": "1.1119677"
+        },
+        {
+            "key": "Service Description Table",
+            "score": "1.1119677"
+        }
+    ],
+    "PATHway": [
+        {
+            "key": "Cardiovascular disease",
+            "score": "2.037519"
+        },
+        {
+            "key": "Patient",
+            "score": "1.7882928"
+        },
+        {
+            "key": "Smoking cessation",
+            "score": "1.6235793"
+        },
+        {
+            "key": "Hypertension",
+            "score": "1.6145453"
+        },
+        {
+            "key": "Chronic kidney disease",
+            "score": "1.5458605"
+        },
+        {
+            "key": "Blood pressure",
+            "score": "1.5404721"
+        },
+        {
+            "key": "Obesity",
+            "score": "1.5309471"
+        }
+    ],
+    "ENRICHME": [
+        {
+            "key": "Activities of daily living",
+            "score": "1.1530219"
+        },
+        {
+            "key": "Quality of life",
+            "score": "1.0659194"
+        },
+        {
+            "key": "Cognition",
+            "score": "1.0142527"
+        },
+        {
+            "key": "Attention",
+            "score": "0.98103637"
+        },
+        {
+            "key": "Behavior",
+            "score": "0.9586283"
+        },
+        {
+            "key": "Assistive technology",
+            "score": "0.9156741"
+        },
+        {
+            "key": "Social environment",
+            "score": "0.90045285"
+        }
+    ],
+    "ROUTE-TO-PA": [
+        {
+            "key": "Data",
+            "score": "1.5189315"
+        },
+        {
+            "key": "Data mining",
+            "score": "1.4524045"
+        },
+        {
+            "key": "Open data",
+            "score": "1.4155035"
+        },
+        {
+            "key": "Data integration",
+            "score": "1.4066666"
+        },
+        {
+            "key": "Data visualization",
+            "score": "1.3683205"
+        },
+        {
+            "key": "Data analysis",
+            "score": "1.3590126"
+        },
+        {
+            "key": "Crowdsourcing",
+            "score": "1.3245193"
+        }
+    ],
+    "FREME": [
+        {
+            "key": "Resource Description Framework",
+            "score": "1.58151"
+        },
+        {
+            "key": "Ontology (information science)",
+            "score": "1.566281"
+        },
+        {
+            "key": "Semantic Web",
+            "score": "1.4354237"
+        },
+        {
+            "key": "Data integration",
+            "score": "1.3962822"
+        },
+        {
+            "key": "XML",
+            "score": "1.3543477"
+        },
+        {
+            "key": "Linked data",
+            "score": "1.3462497"
+        },
+        {
+            "key": "Web Ontology Language",
+            "score": "1.3443662"
+        }
+    ],
+    "WeLive": [
+        {
+            "key": "Web service",
+            "score": "1.4966394"
+        },
+        {
+            "key": "Data mining",
+            "score": "1.4802033"
+        },
+        {
+            "key": "Data",
+            "score": "1.4725735"
+        },
+        {
+            "key": "Business intelligence",
+            "score": "1.447579"
+        },
+        {
+            "key": "Service-oriented architecture",
+            "score": "1.4458462"
+        },
+        {
+            "key": "Cloud computing",
+            "score": "1.4320669"
+        },
+        {
+            "key": "Customer relationship management",
+            "score": "1.4317966"
+        },
+        {
+            "key": "Service-oriented architecture",
+            "score": "0.9108231"
+        },
+        {
+            "key": "Web 2.0",
+            "score": "0.9004086"
+        },
+        {
+            "key": "Crowdsourcing",
+            "score": "0.8433868"
+        },
+        {
+            "key": "Business model",
+            "score": "0.83483595"
+        },
+        {
+            "key": "Web service",
+            "score": "0.8345056"
+        },
+        {
+            "key": "Innovation",
+            "score": "0.8315032"
+        },
+        {
+            "key": "Stakeholder (corporate)",
+            "score": "0.82237536"
+        }
+    ],
+    "EHR4CR": [
+        {
+            "key": "Electronic health record",
+            "score": "1.4255254"
+        },
+        {
+            "key": "Clinical research",
+            "score": "1.0604079"
+        },
+        {
+            "key": "Health informatics",
+            "score": "1.0160027"
+        },
+        {
+            "key": "Data",
+            "score": "1.0052521"
+        },
+        {
+            "key": "Clinical trial",
+            "score": "1.0050337"
+        },
+        {
+            "key": "Data mining",
+            "score": "0.98518604"
+        },
+        {
+            "key": "Health care",
+            "score": "0.97903943"
+        }
+    ],
+    "VALUeHEALTH": [
+        {
+            "key": "EHealth",
+            "score": "1.1550053"
+        },
+        {
+            "key": "Interoperability",
+            "score": "1.1464287"
+        },
+        {
+            "key": "Stakeholder (corporate)",
+            "score": "1.1374094"
+        },
+        {
+            "key": "Project stakeholder",
+            "score": "1.0368519"
+        },
+        {
+            "key": "Sustainability",
+            "score": "1.0095288"
+        },
+        {
+            "key": "Strategic planning",
+            "score": "0.97313374"
+        },
+        {
+            "key": "Value chain",
+            "score": "0.95282483"
+        }
+    ],
+    "MIKELANGELO": [
+        {
+            "key": "Kernel-based Virtual Machine",
+            "score": "1.2688383"
+        },
+        {
+            "key": "Cloud computing",
+            "score": "1.1757704"
+        },
+        {
+            "key": "Virtualization",
+            "score": "1.0505252"
+        },
+        {
+            "key": "Xen",
+            "score": "0.9830637"
+        },
+        {
+            "key": "Hypervisor",
+            "score": "0.9682583"
+        },
+        {
+            "key": "VMware",
+            "score": "0.96294445"
+        },
+        {
+            "key": "Virtual machine",
+            "score": "0.9018073"
+        }
+    ],
+    "STORM CLOUDS": [
+        {
+            "key": "Cloud computing",
+            "score": "1.1122468"
+        },
+        {
+            "key": "Web 2.0",
+            "score": "0.9989865"
+        },
+        {
+            "key": "Software as a service",
+            "score": "0.86054754"
+        },
+        {
+            "key": "Small and medium enterprises",
+            "score": "0.83202946"
+        },
+        {
+            "key": "Web browser",
+            "score": "0.79121023"
+        },
+        {
+            "key": "Framework Programmes for Research and Technological Development",
+            "score": "0.7744687"
+        },
+        {
+            "key": "Interoperability",
+            "score": "0.7723191"
+        }
+    ],
+    "NEAT": [
+        {
+            "key": "Computer network",
+            "score": "1.1773983"
+        },
+        {
+            "key": "Quality of service",
+            "score": "1.133356"
+        },
+        {
+            "key": "Internet Protocol",
+            "score": "1.1190113"
+        },
+        {
+            "key": "Web application",
+            "score": "1.0989363"
+        },
+        {
+            "key": "Router (computing)",
+            "score": "1.0820153"
+        },
+        {
+            "key": "Application software",
+            "score": "1.0803001"
+        },
+        {
+            "key": "Application layer",
+            "score": "1.0747888"
+        }
+    ],
+    "COCOHA": [
+        {
+            "key": "Electroencephalography",
+            "score": "1.1604259"
+        },
+        {
+            "key": "Signal processing",
+            "score": "1.1124971"
+        },
+        {
+            "key": "Cerebral cortex",
+            "score": "1.0226607"
+        },
+        {
+            "key": "Auditory system",
+            "score": "1.0086689"
+        },
+        {
+            "key": "Brain",
+            "score": "0.99621195"
+        },
+        {
+            "key": "Signal-to-noise ratio",
+            "score": "0.9600226"
+        },
+        {
+            "key": "Human brain",
+            "score": "0.9493706"
+        }
+    ],
+    "subCULTron": [
+        {
+            "key": "Intelligent agent",
+            "score": "1.1355122"
+        },
+        {
+            "key": "Artificial intelligence",
+            "score": "1.096664"
+        },
+        {
+            "key": "Swarm intelligence",
+            "score": "1.082737"
+        },
+        {
+            "key": "Machine learning",
+            "score": "1.0478985"
+        },
+        {
+            "key": "Sustainability",
+            "score": "1.0387641"
+        },
+        {
+            "key": "Collective intelligence",
+            "score": "1.0154266"
+        },
+        {
+            "key": "System",
+            "score": "1.014883"
+        }
+    ],
+    "ARIA-VALUSPA": [
+        {
+            "key": "Speech recognition",
+            "score": "0.9849582"
+        },
+        {
+            "key": "Information retrieval",
+            "score": "0.96124154"
+        },
+        {
+            "key": "Body language",
+            "score": "0.90844464"
+        },
+        {
+            "key": "Graphical user interface",
+            "score": "0.8742966"
+        },
+        {
+            "key": "Speech synthesis",
+            "score": "0.8478719"
+        },
+        {
+            "key": "Nonverbal communication",
+            "score": "0.8260864"
+        },
+        {
+            "key": "User interface",
+            "score": "0.81835675"
+        }
+    ],
+    "TYPES": [],
+    "New_InnoNet": [
+        {
+            "key": "Stakeholder (corporate)",
+            "score": "0.71828467"
+        },
+        {
+            "key": "Project stakeholder",
+            "score": "0.68996817"
+        },
+        {
+            "key": "Waste",
+            "score": "0.6741712"
+        },
+        {
+            "key": "Waste management",
+            "score": "0.60705626"
+        },
+        {
+            "key": "Capacity building",
+            "score": "0.5919809"
+        },
+        {
+            "key": "Value chain",
+            "score": "0.58916146"
+        },
+        {
+            "key": "Electronic waste",
+            "score": "0.5880159"
+        }
+    ],
+    "PROTEUS": [
+        {
+            "key": "Sensor",
+            "score": "1.3801193"
+        },
+        {
+            "key": "Microelectromechanical systems",
+            "score": "1.3734897"
+        },
+        {
+            "key": "CMOS",
+            "score": "1.1907499"
+        },
+        {
+            "key": "Integrated circuit",
+            "score": "1.1425703"
+        },
+        {
+            "key": "System",
+            "score": "1.1182215"
+        },
+        {
+            "key": "Embedded system",
+            "score": "1.0900756"
+        },
+        {
+            "key": "Reliability engineering",
+            "score": "1.0728993"
+        }
+    ],
+    "AppHub": [
+        {
+            "key": "Open-source software",
+            "score": "1.9394181"
+        },
+        {
+            "key": "Open source",
+            "score": "1.8081864"
+        },
+        {
+            "key": "Free software",
+            "score": "1.7534964"
+        },
+        {
+            "key": "Open Source Initiative",
+            "score": "1.5901042"
+        },
+        {
+            "key": "Source code",
+            "score": "1.5751257"
+        },
+        {
+            "key": "Apache Software Foundation",
+            "score": "1.521401"
+        },
+        {
+            "key": "Free and open-source software",
+            "score": "1.5209627"
+        }
+    ],
+    "SEWA": [
+        {
+            "key": "Human–computer interaction",
+            "score": "1.6761129"
+        },
+        {
+            "key": "Interaction",
+            "score": "1.3916409"
+        },
+        {
+            "key": "Speech recognition",
+            "score": "1.3869474"
+        },
+        {
+            "key": "Data mining",
+            "score": "1.2958565"
+        },
+        {
+            "key": "Multimedia",
+            "score": "1.2951012"
+        },
+        {
+            "key": "Information retrieval",
+            "score": "1.2916632"
+        },
+        {
+            "key": "Computer science",
+            "score": "1.2744806"
+        }
+    ],
+    "TAPPS": [
+        {
+            "key": "App Store (iOS)",
+            "score": "1.9058604"
+        },
+        {
+            "key": "Application software",
+            "score": "1.8619678"
+        },
+        {
+            "key": "Virtual machine",
+            "score": "1.8229804"
+        },
+        {
+            "key": "IPad",
+            "score": "1.7270931"
+        },
+        {
+            "key": "IOS",
+            "score": "1.6563514"
+        },
+        {
+            "key": "IPhone",
+            "score": "1.6377351"
+        },
+        {
+            "key": "Tablet computer",
+            "score": "1.6329978"
+        }
+    ],
+    "CloudTeams": [
+        {
+            "key": "Software testing",
+            "score": "1.2822232"
+        },
+        {
+            "key": "Application software",
+            "score": "1.2538556"
+        },
+        {
+            "key": "Software development",
+            "score": "1.2190815"
+        },
+        {
+            "key": "Web application",
+            "score": "1.203206"
+        },
+        {
+            "key": "Software development kit",
+            "score": "1.2028434"
+        },
+        {
+            "key": "Middleware",
+            "score": "1.1861538"
+        },
+        {
+            "key": "Software development process",
+            "score": "1.1713153"
+        }
+    ],
+    "I-Support": [
+        {
+            "key": "Shower",
+            "score": "1.2273161"
+        },
+        {
+            "key": "Activities of daily living",
+            "score": "1.0778526"
+        },
+        {
+            "key": "Robot",
+            "score": "1.0008816"
+        },
+        {
+            "key": "Assistive technology",
+            "score": "0.9559871"
+        },
+        {
+            "key": "Disability",
+            "score": "0.88046557"
+        },
+        {
+            "key": "Bathtub",
+            "score": "0.8748132"
+        },
+        {
+            "key": "Sanitation",
+            "score": "0.81957334"
+        }
+    ],
+    "ePlus Ecosystem": [
+        {
+            "key": "Startup company",
+            "score": "1.9107445"
+        },
+        {
+            "key": "Web 2.0",
+            "score": "1.701697"
+        },
+        {
+            "key": "Business incubator",
+            "score": "1.458677"
+        },
+        {
+            "key": "Business model",
+            "score": "1.4552076"
+        },
+        {
+            "key": "Venture capital",
+            "score": "1.4241217"
+        },
+        {
+            "key": "Entrepreneurship",
+            "score": "1.3912014"
+        },
+        {
+            "key": "Small and medium enterprises",
+            "score": "1.3682128"
+        }
+    ],
+    "Eyes of Things": [
+        {
+            "key": "Computer vision",
+            "score": "1.4479221"
+        },
+        {
+            "key": "Embedded system",
+            "score": "1.3554056"
+        },
+        {
+            "key": "Mobile device",
+            "score": "1.3537796"
+        },
+        {
+            "key": "Machine vision",
+            "score": "1.2586151"
+        },
+        {
+            "key": "Sensor",
+            "score": "1.2548218"
+        },
+        {
+            "key": "Mobile computing",
+            "score": "1.2429203"
+        },
+        {
+            "key": "Personal digital assistant",
+            "score": "1.2337674"
+        }
+    ],
+    "MoreGrasp": [
+        {
+            "key": "Spinal cord injury",
+            "score": "1.2521272"
+        },
+        {
+            "key": "Electromyography",
+            "score": "1.0348448"
+        },
+        {
+            "key": "Brain",
+            "score": "1.0285348"
+        },
+        {
+            "key": "Electroencephalography",
+            "score": "0.9893546"
+        },
+        {
+            "key": "Electrode",
+            "score": "0.97885174"
+        },
+        {
+            "key": "Spinal cord",
+            "score": "0.9720717"
+        },
+        {
+            "key": "User interface",
+            "score": "0.9573996"
+        }
+    ],
+    "HiPEAC": [
+        {
+            "key": "Computer network",
+            "score": "0.7698992"
+        },
+        {
+            "key": "Computer science",
+            "score": "0.74208045"
+        },
+        {
+            "key": "European Commission",
+            "score": "0.7179794"
+        },
+        {
+            "key": "Academic conference",
+            "score": "0.71608263"
+        },
+        {
+            "key": "Framework Programmes for Research and Technological Development",
+            "score": "0.7140606"
+        },
+        {
+            "key": "Social network",
+            "score": "0.68401265"
+        },
+        {
+            "key": "Computer security",
+            "score": "0.68081754"
+        }
+    ],
+    "PROEIPAHA": [
+        {
+            "key": "Stakeholder (corporate)",
+            "score": "1.4721464"
+        },
+        {
+            "key": "Project stakeholder",
+            "score": "1.420999"
+        },
+        {
+            "key": "Strategic planning",
+            "score": "1.1745057"
+        },
+        {
+            "key": "Change management",
+            "score": "1.1580143"
+        },
+        {
+            "key": "Framework Programmes for Research and Technological Development",
+            "score": "1.1482972"
+        },
+        {
+            "key": "Project management",
+            "score": "1.1250609"
+        },
+        {
+            "key": "Capacity building",
+            "score": "1.1208093"
+        }
+    ],
+    "RAMCIP": [
+        {
+            "key": "Robot",
+            "score": "0.92907095"
+        },
+        {
+            "key": "Robotics",
+            "score": "0.909478"
+        },
+        {
+            "key": "Framework Programmes for Research and Technological Development",
+            "score": "0.84645534"
+        },
+        {
+            "key": "Assistive technology",
+            "score": "0.7892219"
+        },
+        {
+            "key": "Project management",
+            "score": "0.7334777"
+        },
+        {
+            "key": "Technology",
+            "score": "0.6972782"
+        },
+        {
+            "key": "Autonomous robot",
+            "score": "0.69501865"
+        }
+    ],
+    "DiDIY": [
+        {
+            "key": "Web 2.0",
+            "score": "1.0509957"
+        },
+        {
+            "key": "Digital media",
+            "score": "1.0449167"
+        },
+        {
+            "key": "Digital preservation",
+            "score": "0.995059"
+        },
+        {
+            "key": "Technology",
+            "score": "0.993989"
+        },
+        {
+            "key": "Information",
+            "score": "0.9835158"
+        },
+        {
+            "key": "Internet of Things",
+            "score": "0.9668081"
+        },
+        {
+            "key": "Digital divide",
+            "score": "0.9629206"
+        }
+    ],
+    "TWIST DIgital": [
+        {
+            "key": "Startup company",
+            "score": "1.3095208"
+        },
+        {
+            "key": "Business incubator",
+            "score": "0.9573992"
+        },
+        {
+            "key": "Small and medium enterprises",
+            "score": "0.89944935"
+        },
+        {
+            "key": "Business model",
+            "score": "0.86583763"
+        },
+        {
+            "key": "Business development",
+            "score": "0.83656293"
+        },
+        {
+            "key": "Business-to-business",
+            "score": "0.8004042"
+        },
+        {
+            "key": "Innovation",
+            "score": "0.8001564"
+        }
+    ],
+    "TAMS4CPS": [
+        {
+            "key": "Simulation",
+            "score": "1.4286166"
+        },
+        {
+            "key": "Embedded system",
+            "score": "1.3459448"
+        },
+        {
+            "key": "Interoperability",
+            "score": "1.2363095"
+        },
+        {
+            "key": "Computer security",
+            "score": "1.167164"
+        },
+        {
+            "key": "System",
+            "score": "1.1604129"
+        },
+        {
+            "key": "Real-time computing",
+            "score": "1.1275584"
+        },
+        {
+            "key": "Framework Programmes for Research and Technological Development",
+            "score": "1.1245104"
+        }
+    ],
+    "ROAD2CPS": [
+        {
+            "key": "Smart grid",
+            "score": "0.7260714"
+        },
+        {
+            "key": "European Commission",
+            "score": "0.63336945"
+        },
+        {
+            "key": "Sustainability",
+            "score": "0.6085841"
+        },
+        {
+            "key": "Efficient energy use",
+            "score": "0.58054984"
+        },
+        {
+            "key": "Strategic planning",
+            "score": "0.5709453"
+        },
+        {
+            "key": "Stakeholder (corporate)",
+            "score": "0.56428313"
+        },
+        {
+            "key": "Computer security",
+            "score": "0.5516958"
+        }
+    ],
+    "MAMEM": [
+        {
+            "key": "Graphical user interface",
+            "score": "1.092893"
+        },
+        {
+            "key": "User interface",
+            "score": "1.0481967"
+        },
+        {
+            "key": "Assistive technology",
+            "score": "1.0350604"
+        },
+        {
+            "key": "Interface (computing)",
+            "score": "1.002149"
+        },
+        {
+            "key": "Cognition",
+            "score": "0.9830083"
+        },
+        {
+            "key": "Attention",
+            "score": "0.9758568"
+        },
+        {
+            "key": "Speech recognition",
+            "score": "0.96959966"
+        }
+    ],
+    "KRISTINA": [
+        {
+            "key": "Health care",
+            "score": "1.1503973"
+        },
+        {
+            "key": "Migrant worker",
+            "score": "1.0119642"
+        },
+        {
+            "key": "Human migration",
+            "score": "1.0047822"
+        },
+        {
+            "key": "Social capital",
+            "score": "0.97155917"
+        },
+        {
+            "key": "Social work",
+            "score": "0.8879635"
+        },
+        {
+            "key": "Discrimination",
+            "score": "0.8821769"
+        },
+        {
+            "key": "Communication",
+            "score": "0.8799663"
+        }
+    ],
+    "RAPID-MIX": [
+        {
+            "key": "Creativity",
+            "score": "0.75282574"
+        },
+        {
+            "key": "Body language",
+            "score": "0.69088566"
+        },
+        {
+            "key": "Human–computer interaction",
+            "score": "0.68659496"
+        },
+        {
+            "key": "Technology",
+            "score": "0.6852988"
+        },
+        {
+            "key": "Innovation",
+            "score": "0.68114495"
+        },
+        {
+            "key": "Information and communications technology",
+            "score": "0.6772583"
+        },
+        {
+            "key": "Graphical user interface",
+            "score": "0.6752798"
+        }
+    ],
+    "AEGLE": [
+        {
+            "key": "Cloud computing",
+            "score": "0.96153027"
+        },
+        {
+            "key": "Data center",
+            "score": "0.8280367"
+        },
+        {
+            "key": "Grid computing",
+            "score": "0.82049316"
+        },
+        {
+            "key": "Middleware",
+            "score": "0.77761275"
+        },
+        {
+            "key": "Service-oriented architecture",
+            "score": "0.7705882"
+        },
+        {
+            "key": "Business intelligence",
+            "score": "0.7545784"
+        },
+        {
+            "key": "Software as a service",
+            "score": "0.74720055"
+        }
+    ],
+    "KConnect": [
+        {
+            "key": "Data mining",
+            "score": "1.278373"
+        },
+        {
+            "key": "Information retrieval",
+            "score": "1.2008418"
+        },
+        {
+            "key": "Natural language processing",
+            "score": "1.1450539"
+        },
+        {
+            "key": "Database",
+            "score": "1.1367977"
+        },
+        {
+            "key": "Information",
+            "score": "1.1250681"
+        },
+        {
+            "key": "Semantic Web",
+            "score": "1.1237406"
+        },
+        {
+            "key": "Business intelligence",
+            "score": "1.1168514"
+        }
+    ],
+    "Great": [
+        {
+            "key": "Innovation",
+            "score": "2.583423"
+        },
+        {
+            "key": "Governance",
+            "score": "2.1054192"
+        },
+        {
+            "key": "Social innovation",
+            "score": "2.0294273"
+        },
+        {
+            "key": "Open innovation",
+            "score": "1.9480174"
+        },
+        {
+            "key": "Stakeholder (corporate)",
+            "score": "1.9433916"
+        },
+        {
+            "key": "Evaluation",
+            "score": "1.9321858"
+        },
+        {
+            "key": "Sustainability",
+            "score": "1.9319396"
+        }
+    ]
+}

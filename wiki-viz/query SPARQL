@@ -1,0 +1,61 @@
+== Hierviz ==
+=== Lista persone ===
+
+SELECT DISTINCT ?name
+WHERE {
+  ?person a foaf:Person .
+  ?person <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+=== Lista persone con nome e cognome ===
+
+SELECT ?user (str(?name) as ?name) (str(?sur) as ?surname)
+WHERE {
+  ?person <http://www.w3.org/2000/01/rdf-schema#label> ?user ;
+          foaf:firstName ?name ;
+          foaf:familyName ?sur .
+}
+
+=== RRI topic per persona ===
+
+SELECT DISTINCT ?name ?rri
+WHERE {
+  ?person a foaf:Person .
+  ?person <http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Property-3ARRI_topic_interest> ?rri .
+  ?person <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+=== Topic interest per persona ===
+
+SELECT DISTINCT ?name ?topic
+WHERE {
+  ?person a foaf:Person .
+  ?person <http://xmlns.com/foaf/0.1/topic_interest> ?topic .
+  ?person <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+=== SSH topic per persona ===
+
+SELECT DISTINCT ?name ?ssh
+WHERE {
+  ?person a foaf:Person .
+  ?person <http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Property-3ASSH_topic_interest> ?ssh .
+  ?person <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+=== ICT topic per persona ===
+
+SELECT DISTINCT ?name ?ict
+WHERE {
+  ?person a foaf:Person .
+  ?person <http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Property-3AICT_topic_interest> ?ict .
+  ?person <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+=== Albero categorie ICT topic ===
+
+SELECT DISTINCT ?mother ?daughter
+WHERE {
+  ?mother <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://http://www.rri-ict-forum.eu/index.php/Special:URIResolver/Category-3AICT_topic> .
+  ?daughter <http://www.w3.org/2000/01/rdf-schema#subClassOf> ?mother .
+}

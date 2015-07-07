@@ -1,0 +1,1141 @@
+{
+    "Acronym": [
+        {
+            "key": "Ichpedia",
+            "score": "0.75759286"
+        },
+        {
+            "key": "Service science and engineering",
+            "score": "0.70737"
+        },
+        {
+            "key": "LinkedGov",
+            "score": "0.5435305"
+        },
+        {
+            "key": "User innovation",
+            "score": "0.5328628"
+        },
+        {
+            "key": "Private Eye Project",
+            "score": "0.5280735"
+        },
+        {
+            "key": "Social innovation",
+            "score": "0.5125945"
+        },
+        {
+            "key": "Innovation",
+            "score": "0.5097533"
+        }
+    ],
+    "PATHway": [
+        {
+            "key": "Patient",
+            "score": "0.4876958"
+        },
+        {
+            "key": "Nuclear medicine",
+            "score": "0.47636735"
+        },
+        {
+            "key": "Oncology",
+            "score": "0.4486955"
+        },
+        {
+            "key": "Medical imaging",
+            "score": "0.42658257"
+        },
+        {
+            "key": "Metabolic pathway",
+            "score": "0.40488455"
+        },
+        {
+            "key": "Biotechnology",
+            "score": "0.40278506"
+        },
+        {
+            "key": "Positron emission tomography",
+            "score": "0.3993549"
+        }
+    ],
+    "ENRICHME": [
+        {
+            "key": "Emic and etic",
+            "score": "0.73625326"
+        },
+        {
+            "key": "Ethics of care",
+            "score": "0.48911437"
+        },
+        {
+            "key": "Data collection",
+            "score": "0.43476808"
+        },
+        {
+            "key": "Cultural competence",
+            "score": "0.382179"
+        },
+        {
+            "key": "Objectivity (philosophy)",
+            "score": "0.37550437"
+        },
+        {
+            "key": "Base and superstructure",
+            "score": "0.37486452"
+        },
+        {
+            "key": "Socialization",
+            "score": "0.36875498"
+        }
+    ],
+    "ROUTE-TO-PA": [
+        {
+            "key": "User story",
+            "score": "0.5739878"
+        },
+        {
+            "key": "User (computing)",
+            "score": "0.5064394"
+        },
+        {
+            "key": "Information transfer",
+            "score": "0.48742136"
+        },
+        {
+            "key": "User-centered design",
+            "score": "0.4267106"
+        },
+        {
+            "key": "Innovation",
+            "score": "0.42393827"
+        },
+        {
+            "key": "User experience",
+            "score": "0.41477308"
+        },
+        {
+            "key": "Usability testing",
+            "score": "0.40829334"
+        }
+    ],
+    "FREME": [
+        {
+            "key": "Healthcare Services Specification Project",
+            "score": "0.6342557"
+        },
+        {
+            "key": "Domain-specific language",
+            "score": "0.60611767"
+        },
+        {
+            "key": "Domain-driven design",
+            "score": "0.5897178"
+        },
+        {
+            "key": "Unified Modeling Language",
+            "score": "0.51643413"
+        },
+        {
+            "key": "General-purpose modeling",
+            "score": "0.510674"
+        },
+        {
+            "key": "Project management",
+            "score": "0.5086963"
+        },
+        {
+            "key": "Business information",
+            "score": "0.50740266"
+        }
+    ],
+    "WeLive": [
+        {
+            "key": "Research ethics",
+            "score": "0.61689496"
+        },
+        {
+            "key": "Citizen journalism",
+            "score": "0.5933311"
+        },
+        {
+            "key": "Privacy",
+            "score": "0.5697345"
+        },
+        {
+            "key": "Data",
+            "score": "0.553028"
+        },
+        {
+            "key": "Citizens for Responsibility and Ethics in Washington",
+            "score": "0.54932743"
+        },
+        {
+            "key": "Transparency (behavior)",
+            "score": "0.5492724"
+        },
+        {
+            "key": "Transparency (social)",
+            "score": "0.5479292"
+        },
+        {
+            "key": "Privacy",
+            "score": "0.5957895"
+        },
+        {
+            "key": "Data",
+            "score": "0.51756245"
+        },
+        {
+            "key": "Ethics",
+            "score": "0.4873514"
+        },
+        {
+            "key": "Bioethics",
+            "score": "0.48224372"
+        },
+        {
+            "key": "Data mining",
+            "score": "0.47726157"
+        },
+        {
+            "key": "Ethical consumerism",
+            "score": "0.4732297"
+        },
+        {
+            "key": "Social innovation",
+            "score": "0.4730204"
+        }
+    ],
+    "EHR4CR": [
+        {
+            "key": "Project stakeholder",
+            "score": "1.066296"
+        },
+        {
+            "key": "Stakeholder (corporate)",
+            "score": "0.94422793"
+        },
+        {
+            "key": "Requirements analysis",
+            "score": "0.6713874"
+        },
+        {
+            "key": "Stakeholder theory",
+            "score": "0.6554664"
+        },
+        {
+            "key": "Agile software development",
+            "score": "0.63229865"
+        },
+        {
+            "key": "Solution",
+            "score": "0.62072676"
+        },
+        {
+            "key": "Sustainability",
+            "score": "0.6039324"
+        }
+    ],
+    "VALUeHEALTH": [
+        {
+            "key": "Stakeholder (corporate)",
+            "score": "1.3971862"
+        },
+        {
+            "key": "Project stakeholder",
+            "score": "1.3463895"
+        },
+        {
+            "key": "Stakeholder theory",
+            "score": "1.132487"
+        },
+        {
+            "key": "Stakeholder analysis",
+            "score": "0.7552695"
+        },
+        {
+            "key": "Stakeholder engagement",
+            "score": "0.749836"
+        },
+        {
+            "key": "Stakeholder management",
+            "score": "0.705196"
+        },
+        {
+            "key": "Requirements analysis",
+            "score": "0.6605383"
+        }
+    ],
+    "MIKELANGELO": [
+        {
+            "key": "Sustainability",
+            "score": "0.71870255"
+        },
+        {
+            "key": "Sustainable development",
+            "score": "0.6421411"
+        },
+        {
+            "key": "Project stakeholder",
+            "score": "0.574376"
+        },
+        {
+            "key": "Project management",
+            "score": "0.56973124"
+        },
+        {
+            "key": "Innovation",
+            "score": "0.55343753"
+        },
+        {
+            "key": "Sustainable agriculture",
+            "score": "0.5525807"
+        },
+        {
+            "key": "Knowledge",
+            "score": "0.550576"
+        }
+    ],
+    "STORM CLOUDS": [
+        {
+            "key": "Office for Cooperation with the Diaspora and Serbs in the Region",
+            "score": "0.28123897"
+        },
+        {
+            "key": "Vertical effect",
+            "score": "0.2717875"
+        },
+        {
+            "key": "Engineers of the human soul",
+            "score": "0.2653756"
+        },
+        {
+            "key": "Humane Society International",
+            "score": "0.25272557"
+        },
+        {
+            "key": "Societal impact of nanotechnology",
+            "score": "0.24763092"
+        },
+        {
+            "key": "Priority Products and Materials report",
+            "score": "0.24663779"
+        },
+        {
+            "key": "Citizen science",
+            "score": "0.24384001"
+        }
+    ],
+    "NEAT": [
+        {
+            "key": "Small and medium enterprises",
+            "score": "0.80001146"
+        },
+        {
+            "key": "Free software",
+            "score": "0.7054484"
+        },
+        {
+            "key": "Software development",
+            "score": "0.6861038"
+        },
+        {
+            "key": "Open-source software",
+            "score": "0.66264826"
+        },
+        {
+            "key": "Software engineering",
+            "score": "0.63731235"
+        },
+        {
+            "key": "Project",
+            "score": "0.63664824"
+        },
+        {
+            "key": "Open source",
+            "score": "0.636004"
+        }
+    ],
+    "COCOHA": [
+        {
+            "key": "Social skills",
+            "score": "0.5550764"
+        },
+        {
+            "key": "Assistive technology",
+            "score": "0.5363435"
+        },
+        {
+            "key": "Quality of life",
+            "score": "0.5295343"
+        },
+        {
+            "key": "Knowledge",
+            "score": "0.51969326"
+        },
+        {
+            "key": "Working memory",
+            "score": "0.51314193"
+        },
+        {
+            "key": "Life skills",
+            "score": "0.49912366"
+        },
+        {
+            "key": "Attention",
+            "score": "0.49640816"
+        }
+    ],
+    "subCULTron": [],
+    "ARIA-VALUSPA": [
+        {
+            "key": "Data",
+            "score": "0.81965536"
+        },
+        {
+            "key": "Data quality",
+            "score": "0.6990175"
+        },
+        {
+            "key": "Data integration",
+            "score": "0.67059344"
+        },
+        {
+            "key": "Data mining",
+            "score": "0.64917266"
+        },
+        {
+            "key": "Data analysis",
+            "score": "0.5849064"
+        },
+        {
+            "key": "Electronic data capture",
+            "score": "0.5842977"
+        },
+        {
+            "key": "Data integrity",
+            "score": "0.56878924"
+        }
+    ],
+    "TYPES": [
+        {
+            "key": "Feedback",
+            "score": "0.5841322"
+        },
+        {
+            "key": "System",
+            "score": "0.5715626"
+        },
+        {
+            "key": "Information",
+            "score": "0.56652933"
+        },
+        {
+            "key": "User (computing)",
+            "score": "0.55386174"
+        },
+        {
+            "key": "Requirements analysis",
+            "score": "0.5380089"
+        },
+        {
+            "key": "Crowdsourcing",
+            "score": "0.5302473"
+        },
+        {
+            "key": "Use case",
+            "score": "0.52894473"
+        }
+    ],
+    "New_InnoNet": [
+        {
+            "key": "Transparency (social)",
+            "score": "0.594934"
+        },
+        {
+            "key": "Transparency (behavior)",
+            "score": "0.59412354"
+        },
+        {
+            "key": "Stakeholder (corporate)",
+            "score": "0.5687836"
+        },
+        {
+            "key": "Stakeholder theory",
+            "score": "0.54322094"
+        },
+        {
+            "key": "Corporate transparency",
+            "score": "0.5065016"
+        },
+        {
+            "key": "Project stakeholder",
+            "score": "0.48504826"
+        },
+        {
+            "key": "Strategy map",
+            "score": "0.42932382"
+        }
+    ],
+    "PROTEUS": [
+        {
+            "key": "Water pollution",
+            "score": "0.86436546"
+        },
+        {
+            "key": "Clean Water Act",
+            "score": "0.86246574"
+        },
+        {
+            "key": "Water treatment",
+            "score": "0.83606243"
+        },
+        {
+            "key": "Drinking water",
+            "score": "0.8192439"
+        },
+        {
+            "key": "Safe Drinking Water Act",
+            "score": "0.8168309"
+        },
+        {
+            "key": "Water quality",
+            "score": "0.8132452"
+        },
+        {
+            "key": "Pollution prevention",
+            "score": "0.7911282"
+        }
+    ],
+    "AppHub": [
+        {
+            "key": "Screencast",
+            "score": "0.81750387"
+        },
+        {
+            "key": "Microsoft PowerPoint",
+            "score": "0.5005075"
+        },
+        {
+            "key": "User experience",
+            "score": "0.47379923"
+        },
+        {
+            "key": "Web 2.0",
+            "score": "0.45267263"
+        },
+        {
+            "key": "Screenshot",
+            "score": "0.43672472"
+        },
+        {
+            "key": "Customer relationship management",
+            "score": "0.42663106"
+        },
+        {
+            "key": "Remote desktop software",
+            "score": "0.4246519"
+        }
+    ],
+    "SEWA": [
+        {
+            "key": "Project management",
+            "score": "0.70563585"
+        },
+        {
+            "key": "Dissemination",
+            "score": "0.6284196"
+        },
+        {
+            "key": "Framework Programmes for Research and Technological Development",
+            "score": "0.5931175"
+        },
+        {
+            "key": "Applied ethics",
+            "score": "0.58427775"
+        },
+        {
+            "key": "Project stakeholder",
+            "score": "0.57468146"
+        },
+        {
+            "key": "Project manager",
+            "score": "0.56308657"
+        },
+        {
+            "key": "Project management software",
+            "score": "0.5626788"
+        }
+    ],
+    "TAPPS": [
+        {
+            "key": "Security level management",
+            "score": "1.0060618"
+        },
+        {
+            "key": "Secure Trusted Operating System Consortium",
+            "score": "0.9780055"
+        },
+        {
+            "key": "Security-evaluated operating system",
+            "score": "0.860655"
+        },
+        {
+            "key": "Nuffield Trust",
+            "score": "0.8270163"
+        },
+        {
+            "key": "The Bobby Van Trust",
+            "score": "0.7738833"
+        },
+        {
+            "key": "Security-Enhanced Linux",
+            "score": "0.7681774"
+        },
+        {
+            "key": "Backporting",
+            "score": "0.7638499"
+        }
+    ],
+    "CloudTeams": [
+        {
+            "key": "Privacy by Design",
+            "score": "1.1674752"
+        },
+        {
+            "key": "Privacy",
+            "score": "1.0572406"
+        },
+        {
+            "key": "Vulnerability (computing)",
+            "score": "0.93992853"
+        },
+        {
+            "key": "Superuser",
+            "score": "0.8607508"
+        },
+        {
+            "key": "User (computing)",
+            "score": "0.8594515"
+        },
+        {
+            "key": "Data Protection Directive",
+            "score": "0.85855186"
+        },
+        {
+            "key": "Data Protection Act 1998",
+            "score": "0.84380704"
+        }
+    ],
+    "I-Support": [
+        {
+            "key": "Stakeholder management",
+            "score": "0.91332316"
+        },
+        {
+            "key": "Stakeholder (corporate)",
+            "score": "0.8610288"
+        },
+        {
+            "key": "Stakeholder theory",
+            "score": "0.830948"
+        },
+        {
+            "key": "Project stakeholder",
+            "score": "0.78241915"
+        },
+        {
+            "key": "Stakeholder engagement",
+            "score": "0.7360171"
+        },
+        {
+            "key": "Commission on Risk Assessment and Risk Management",
+            "score": "0.6575167"
+        },
+        {
+            "key": "Discourse",
+            "score": "0.5969901"
+        }
+    ],
+    "ePlus Ecosystem": [
+        {
+            "key": "Stakeholder theory",
+            "score": "0.83227074"
+        },
+        {
+            "key": "Stakeholder (corporate)",
+            "score": "0.6548334"
+        },
+        {
+            "key": "Corporate social responsibility",
+            "score": "0.5939503"
+        },
+        {
+            "key": "Project stakeholder",
+            "score": "0.5921473"
+        },
+        {
+            "key": "Virtue ethics",
+            "score": "0.58645135"
+        },
+        {
+            "key": "Normative ethics",
+            "score": "0.562103"
+        },
+        {
+            "key": "Business ethics",
+            "score": "0.54990643"
+        }
+    ],
+    "Eyes of Things": [
+        {
+            "key": "Professional ethics",
+            "score": "0.8340692"
+        },
+        {
+            "key": "Ethical code",
+            "score": "0.8219691"
+        },
+        {
+            "key": "Ethical consumerism",
+            "score": "0.77456105"
+        },
+        {
+            "key": "Privacy",
+            "score": "0.7530752"
+        },
+        {
+            "key": "Ethical banking",
+            "score": "0.6783862"
+        },
+        {
+            "key": "Ethics",
+            "score": "0.6696038"
+        },
+        {
+            "key": "Applied ethics",
+            "score": "0.646079"
+        }
+    ],
+    "MoreGrasp": [
+        {
+            "key": "Applied ethics",
+            "score": "0.9774723"
+        },
+        {
+            "key": "Research ethics",
+            "score": "0.9392541"
+        },
+        {
+            "key": "Ethics of care",
+            "score": "0.9147669"
+        },
+        {
+            "key": "Business ethics",
+            "score": "0.8986079"
+        },
+        {
+            "key": "Media ethics",
+            "score": "0.8957877"
+        },
+        {
+            "key": "Ethical code",
+            "score": "0.8474998"
+        },
+        {
+            "key": "Professional ethics",
+            "score": "0.845114"
+        }
+    ],
+    "HiPEAC": [
+        {
+            "key": "Destroy Build Destroy",
+            "score": "0.55351305"
+        },
+        {
+            "key": "Alien invasion",
+            "score": "0.5452445"
+        },
+        {
+            "key": "Emerging technologies",
+            "score": "0.54007"
+        },
+        {
+            "key": "Built environment",
+            "score": "0.5326966"
+        },
+        {
+            "key": "Moment Factory",
+            "score": "0.5201696"
+        },
+        {
+            "key": "Environment (biophysical)",
+            "score": "0.50662506"
+        },
+        {
+            "key": "Technology in Revelation Space",
+            "score": "0.5008255"
+        }
+    ],
+    "PROEIPAHA": [
+        {
+            "key": "Equality of outcome",
+            "score": "0.85783195"
+        },
+        {
+            "key": "Transparency (behavior)",
+            "score": "0.7880532"
+        },
+        {
+            "key": "Transparency (social)",
+            "score": "0.71174455"
+        },
+        {
+            "key": "Program evaluation",
+            "score": "0.7108053"
+        },
+        {
+            "key": "Impact evaluation",
+            "score": "0.66954523"
+        },
+        {
+            "key": "Outcome-based education",
+            "score": "0.6601474"
+        },
+        {
+            "key": "Participation (decision making)",
+            "score": "0.6578834"
+        }
+    ],
+    "RAMCIP": [
+        {
+            "key": "Open innovation",
+            "score": "0.75379676"
+        },
+        {
+            "key": "Innovation",
+            "score": "0.6837904"
+        },
+        {
+            "key": "User innovation",
+            "score": "0.6466852"
+        },
+        {
+            "key": "Social innovation",
+            "score": "0.62734693"
+        },
+        {
+            "key": "Disruptive innovation",
+            "score": "0.5448362"
+        },
+        {
+            "key": "Department for Business, Innovation and Skills",
+            "score": "0.5441426"
+        },
+        {
+            "key": "European Institute of Innovation and Technology",
+            "score": "0.5260545"
+        }
+    ],
+    "DiDIY": [
+        {
+            "key": "Effectiveness",
+            "score": "0.66059786"
+        },
+        {
+            "key": "Adverse drug reaction",
+            "score": "0.6542163"
+        },
+        {
+            "key": "Effective dose (pharmacology)",
+            "score": "0.6379818"
+        },
+        {
+            "key": "Self-harm",
+            "score": "0.6378575"
+        },
+        {
+            "key": "Sedation",
+            "score": "0.63485307"
+        },
+        {
+            "key": "Demand reduction",
+            "score": "0.6004944"
+        },
+        {
+            "key": "Somnolence",
+            "score": "0.59039915"
+        }
+    ],
+    "TWIST DIgital": [
+        {
+            "key": "Millennium Ecosystem Assessment",
+            "score": "0.5996392"
+        },
+        {
+            "key": "Project stakeholder",
+            "score": "0.5862371"
+        },
+        {
+            "key": "Payment for ecosystem services",
+            "score": "0.56920457"
+        },
+        {
+            "key": "Stakeholder management",
+            "score": "0.522804"
+        },
+        {
+            "key": "Business ecosystem",
+            "score": "0.50715566"
+        },
+        {
+            "key": "DEVOTES project",
+            "score": "0.49621707"
+        },
+        {
+            "key": "Stakeholder (corporate)",
+            "score": "0.4908012"
+        }
+    ],
+    "TAMS4CPS": [
+        {
+            "key": "Stakeholder theory",
+            "score": "1.0180951"
+        },
+        {
+            "key": "Project stakeholder",
+            "score": "0.9668971"
+        },
+        {
+            "key": "Stakeholder (corporate)",
+            "score": "0.9339433"
+        },
+        {
+            "key": "Governance",
+            "score": "0.67211986"
+        },
+        {
+            "key": "Participation (decision making)",
+            "score": "0.6614444"
+        },
+        {
+            "key": "Participatory action research",
+            "score": "0.64493084"
+        },
+        {
+            "key": "United Nations Guiding Principles on Business and Human Rights",
+            "score": "0.61055136"
+        }
+    ],
+    "ROAD2CPS": [
+        {
+            "key": "Stakeholder theory",
+            "score": "1.0180951"
+        },
+        {
+            "key": "Project stakeholder",
+            "score": "0.9668971"
+        },
+        {
+            "key": "Stakeholder (corporate)",
+            "score": "0.9339433"
+        },
+        {
+            "key": "Governance",
+            "score": "0.67211986"
+        },
+        {
+            "key": "Participation (decision making)",
+            "score": "0.6614444"
+        },
+        {
+            "key": "Participatory action research",
+            "score": "0.64493084"
+        },
+        {
+            "key": "United Nations Guiding Principles on Business and Human Rights",
+            "score": "0.61055136"
+        }
+    ],
+    "MAMEM": [
+        {
+            "key": "Ethical code",
+            "score": "0.55701953"
+        },
+        {
+            "key": "User experience",
+            "score": "0.5496506"
+        },
+        {
+            "key": "User (computing)",
+            "score": "0.5389358"
+        },
+        {
+            "key": "Superuser",
+            "score": "0.50040436"
+        },
+        {
+            "key": "Usability engineering",
+            "score": "0.4867919"
+        },
+        {
+            "key": "User interface",
+            "score": "0.4784328"
+        },
+        {
+            "key": "User-centered design",
+            "score": "0.4737289"
+        }
+    ],
+    "KRISTINA": [
+        {
+            "key": "Interpersonal communication",
+            "score": "0.6059114"
+        },
+        {
+            "key": "Social support",
+            "score": "0.40572628"
+        },
+        {
+            "key": "Interpersonal relationship",
+            "score": "0.37528887"
+        },
+        {
+            "key": "Problem solving",
+            "score": "0.345702"
+        },
+        {
+            "key": "Health care provider",
+            "score": "0.33104193"
+        },
+        {
+            "key": "IP address",
+            "score": "0.3309518"
+        },
+        {
+            "key": "Life skills",
+            "score": "0.3307834"
+        }
+    ],
+    "RAPID-MIX": [
+        {
+            "key": "AdaControl",
+            "score": "0.6173386"
+        },
+        {
+            "key": "Constructive notice",
+            "score": "0.54513705"
+        },
+        {
+            "key": "Merrimack Valley Library Consortium",
+            "score": "0.54154325"
+        },
+        {
+            "key": "Security store",
+            "score": "0.47342196"
+        },
+        {
+            "key": "Data Validation and Certification Server",
+            "score": "0.46777692"
+        },
+        {
+            "key": "Hungarian identity card",
+            "score": "0.44556656"
+        },
+        {
+            "key": "World Wide Web Consortium",
+            "score": "0.43200833"
+        }
+    ],
+    "AEGLE": [
+        {
+            "key": "Ethical code",
+            "score": "0.32870042"
+        },
+        {
+            "key": "Ethics",
+            "score": "0.3150775"
+        },
+        {
+            "key": "Applied ethics",
+            "score": "0.3091598"
+        },
+        {
+            "key": "Bioethics",
+            "score": "0.30698463"
+        },
+        {
+            "key": "Ethical implications in contracts",
+            "score": "0.3062496"
+        },
+        {
+            "key": "Research ethics",
+            "score": "0.30117363"
+        },
+        {
+            "key": "Ethics of care",
+            "score": "0.2856065"
+        }
+    ],
+    "KConnect": [
+        {
+            "key": "Clinical research",
+            "score": "0.72102827"
+        },
+        {
+            "key": "Health care provider",
+            "score": "0.67694116"
+        },
+        {
+            "key": "Patient",
+            "score": "0.6446562"
+        },
+        {
+            "key": "Clinical trial",
+            "score": "0.627003"
+        },
+        {
+            "key": "Informed consent",
+            "score": "0.6264178"
+        },
+        {
+            "key": "Benchmarking",
+            "score": "0.595448"
+        },
+        {
+            "key": "Health care",
+            "score": "0.57423747"
+        }
+    ],
+    "Great": [
+        {
+            "key": "Innovation",
+            "score": "2.5464752"
+        },
+        {
+            "key": "Governance",
+            "score": "2.0805423"
+        },
+        {
+            "key": "Social innovation",
+            "score": "1.9867492"
+        },
+        {
+            "key": "Stakeholder (corporate)",
+            "score": "1.9226912"
+        },
+        {
+            "key": "Open innovation",
+            "score": "1.9224395"
+        },
+        {
+            "key": "Sustainability",
+            "score": "1.9120989"
+        },
+        {
+            "key": "Evaluation",
+            "score": "1.9078878"
+        }
+    ]
+}

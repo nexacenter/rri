@@ -1,0 +1,31 @@
+{
+ "name": "ICT_topic_interest",
+ "children": [
+   {"name": "Gaming and gamification technology", "size": 3},
+   {
+     "name": "Human-machine interaction",
+     "children": [
+      {"name": "Human-computer interaction", "size": 2}
+     ]
+   },
+   {
+     "name": "Micro nano and photonic technology",
+     "children": [
+      {"name": "Microtechnology", "size": 0},
+      {"name": "Nanotechnology", "size": 1}
+     ]
+   },
+   {
+     "name": "ICT Cross-Cutting topic",
+     "children": [
+      {"name": "Cybersecurity and Trustworthy ICT", "size": 0},
+      {"name": "ICT and entrepreneurship", "size": 0},
+      {"name": "ICT and finance", "size": 0},
+      {"name": "ICT pre-commercial procurement", "size": 0},
+      {"name": "Internet of Things", "size": 3},
+      {"name": "Open Innovation in ICT", "size": 3}
+     ]
+   },
+   {"name": "Robotics", "size": 4}
+ ]
+}
