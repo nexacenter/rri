@@ -1,0 +1,25 @@
+{
+  "name": "rri",
+  "version": "0.0.1",
+  "description": "Scripts for RRI-ICT Forum project funded by the European Union through its Horizon 2020 (H2020) programme for research and innovation",
+  "main": "cordis.js",
+  "dependencies": {
+    "fast-csv": "~0.6.0",
+    "form-data": "~1.0.0-rc1",
+    "iconv": "~2.1.8",
+    "xml2js": "~0.4.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nexacenter/rri"
+  },
+  "author": "Giuseppe Futia, Alessio Melandri",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/nexacenter/rri/issues"
+  }
+}
