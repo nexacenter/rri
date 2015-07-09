@@ -30,10 +30,11 @@ var ict = [];
 var rri = [];
 
 $.getJSON('data/persons.json', function(data) {
-    var i = 0;
     data.results.bindings.forEach(function(person) {
-        persons[i] = person.name.value.replace('User:',''); 
-        i++;
+        persons.push({
+            name: person.name.value.replace('User:',''),
+            related: new Array()
+        });
     });
 });
 
@@ -56,21 +57,12 @@ $.getJSON('data/rri-topic.json', function(data) {
 });
 
 setTimeout(function(){ //XXX very bad to go through async
-var ll = generateLinksWithWeigth(persons, ict);
-console.log(rri);
-}, 2000);
 
-d3.json("data/readme-flare-imports 2.json", function(error, classes) {
-    if (error) throw error;
-
-    var nodes = cluster.nodes(packageHierarchy(classes)),
-        links = packageImports(nodes);
-
-console.log(classes);
-console.log(persons);
+    var nodes = cluster.nodes(packageHierarchy(persons, rri)),
+        ll = generateLinksWithWeigth(nodes, ict);
 
     link = link
-        .data(bundle(links))
+        .data(bundle(ll))
         .enter().append("path")
         .each(function(d) { d.source = d[0], d.target = d[d.length - 1]; })
         .attr("class", "link")
@@ -87,7 +79,8 @@ console.log(persons);
         .text(function(d) { return d.key; })
         .on("mouseover", mouseovered)
         .on("mouseout", mouseouted);
-});
+
+}, 2000);
 
 function mouseovered(d) {
     d3.select(this).transition().style("cursor", "pointer");
@@ -115,80 +108,45 @@ function mouseouted(d) {
 d3.select(self.frameElement).style("height", diameter + "px");
 
 // Construct clusters from objects names.
-function packageHierarchy(classes) {
-  var map = {};
+function packageHierarchy(persons, rri) { //TODO da utilizzare gli rri topics
+    var map = {};
 
-  function find(name, data) {
-    var node = map[name], i;
-    if (!node) {
-      node = map[name] = data || {name: name, children: []};
-      if (name.length) {
-        node.parent = find(name.substring(0, i = name.lastIndexOf(".")));
-        node.parent.children.push(node);
-        node.key = name.substring(i + 1);
-      }
-    }
-    return node;
-  }
-
-  classes.forEach(function(d) {
-    find(d.name, d);
-  });
-
-  return map[""];
-}
-
-function packageImports(nodes) {
-    var map = {},
-        imports = [];
-
-    // Compute a map from name to node.
-    nodes.forEach(function(d) {
-        map[d.name] = d;
-    });
-
-    // For each import, construct a link from the source to target node.
-    nodes.forEach(function(d) {
-        if (d.related) d.related.forEach(function(i) {
-            imports.push({source: map[d.name], target: map[i], value: 2});
-        });
-    });
-
-    return imports;
-}
-
-function generateNodes(persons, rri) { //XXX codice copiato ma modificato in parte
-    var personWithTopic = [];
-console.log(persons);
-//fare il group by delle persone
-//generare i codici per i cluster
-
-    for (var k = 0; k < persons.length; k++) {
-        var name = persons[k];
-        for (var i = 0; i < rri.length; i++) {
-            if (rri[i].person === name) {
-                for (var j = 0; j < rri.length; j++) {
-                    if (rri[j].topic === ict[i].topic && name !== ict[j].person) { 
-                        personWithTopic.push({person: name, target: ict[j].person});
-                    }
-                }
+    function find(name, data) {
+        var node = map[name], i;
+        if (!node) {
+            node = map[name] = data || {name: name, children: []};
+            if (name.length) {
+                node.parent = find(name.substring(0, i = name.lastIndexOf(".")));
+                node.parent.children.push(node);
+                node.key = name.substring(i + 1);
             }
         }
+        return node;
     }
-    return nodes;
+
+    persons.forEach(function(d) {
+        find(d.name, d);
+    });
+
+    return map[""];
 }
 
-function generateLinksWithWeigth(persons, ict) {
+function generateLinksWithWeigth(nodes, ict) {
     var allLinks = [],
         links = [];
 
-    for (var k = 0; k < persons.length; k++) {
-        var name = persons[k];
+    for (var k = 0; k < nodes.length; k++) {
+        var name = nodes[k].name;
         for (var i = 0; i < ict.length; i++) {
             if (ict[i].person === name) {
                 for (var j = 0; j < ict.length; j++) {
-                    if (ict[j].topic === ict[i].topic && name !== ict[j].person) { 
-                        allLinks.push({source: name, target: ict[j].person});
+                    if (ict[j].topic === ict[i].topic && name !== ict[j].person) {
+                        for (var l = 0; l < nodes.length; l++) {
+                            if (nodes[l].name == ict[j].person) {
+                                allLinks.push({source: nodes[k], target: nodes[l]});
+                                break;
+                            }
+                        }
                     }
                 }
             }

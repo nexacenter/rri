@@ -1,98 +1,21 @@
-{
-    "head": {
-        "link": [],
-        "vars": [
-            "name"
-        ]
-    },
-    "results": {
-        "distinct": false,
-        "ordered": true,
-        "bindings": [
-            {
-                "name": {
-                    "type": "literal",
-                    "value": "User:Žiga Turk"
-                }
-            },
-            {
-                "name": {
-                    "type": "literal",
-                    "value": "User:Anthony Dupont"
-                }
-            },
-            {
-                "name": {
-                    "type": "literal",
-                    "value": "User:Carlo Sessa"
-                }
-            },
-            {
-                "name": {
-                    "type": "literal",
-                    "value": "User:Claudia Magdalena Fabian ZSI"
-                }
-            },
-            {
-                "name": {
-                    "type": "literal",
-                    "value": "User:Federico Morando"
-                }
-            },
-            {
-                "name": {
-                    "type": "literal",
-                    "value": "User:IMAL"
-                }
-            },
-            {
-                "name": {
-                    "type": "literal",
-                    "value": "User:Lmari"
-                }
-            },
-            {
-                "name": {
-                    "type": "literal",
-                    "value": "User:Marika Lüders"
-                }
-            },
-            {
-                "name": {
-                    "type": "literal",
-                    "value": "User:Mjose.masanet"
-                }
-            },
-            {
-                "name": {
-                    "type": "literal",
-                    "value": "User:Raimondo Iemma"
-                }
-            },
-            {
-                "name": {
-                    "type": "literal",
-                    "value": "User:Roger Torrenti"
-                }
-            },
-            {
-                "name": {
-                    "type": "literal",
-                    "value": "User:Stephanie.Sigma"
-                }
-            },
-            {
-                "name": {
-                    "type": "literal",
-                    "value": "User:Stephen Barnett"
-                }
-            },
-            {
-                "name": {
-                    "type": "literal",
-                    "value": "User:Susu Dobner ZSI"
-                }
-            }
-        ]
-    }
-}
+{ "head": { "link": [], "vars": ["name"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "name": { "type": "literal", "value": "User:Claudia Magdalena Fabian" }},
+    { "name": { "type": "literal", "value": "User:Diana Raspoet" }},
+    { "name": { "type": "literal", "value": "User:Elena Pavan" }},
+    { "name": { "type": "literal", "value": "User:Giorgia Chille" }},
+    { "name": { "type": "literal", "value": "User:Lorenzo Canova" }},
+    { "name": { "type": "literal", "value": "User:Luca Mari" }},
+    { "name": { "type": "literal", "value": "User:Maria Jose Masanet" }},
+    { "name": { "type": "literal", "value": "User:Maria Schrammel" }},
+    { "name": { "type": "literal", "value": "User:Stephanie Morales" }},
+    { "name": { "type": "literal", "value": "User:Susu Dobner" }},
+    { "name": { "type": "literal", "value": "User:Yves Bernard" }},
+    { "name": { "type": "literal", "value": "User:\u017Diga Turk" }},
+    { "name": { "type": "literal", "value": "User:Anthony Dupont" }},
+    { "name": { "type": "literal", "value": "User:Carlo Sessa" }},
+    { "name": { "type": "literal", "value": "User:Federico Morando" }},
+    { "name": { "type": "literal", "value": "User:Marika L\u00FCders" }},
+    { "name": { "type": "literal", "value": "User:Raimondo Iemma" }},
+    { "name": { "type": "literal", "value": "User:Roger Torrenti" }},
+    { "name": { "type": "literal", "value": "User:Stephen Barnett" }} ] } }
