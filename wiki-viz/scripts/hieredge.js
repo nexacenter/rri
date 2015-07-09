@@ -1,5 +1,3 @@
-//XXX nome cognome anziché username
-
 var diameter = 700,
     radius = diameter / 2,
     innerRadius = radius - 120;
@@ -67,7 +65,7 @@ setTimeout(function(){ //XXX very bad to go through async
         .each(function(d) { d.source = d[0], d.target = d[d.length - 1]; })
         .attr("class", "link")
         .attr("d", line)
-        .style("stroke-width", function(d) { return 1 }); //TODO use this value
+        .style("stroke-width", function(d) { return sizeLink(ll,d.source,d.target); });
 
     node = node
         .data(nodes.filter(function(n) { return !n.children; }))
@@ -78,6 +76,7 @@ setTimeout(function(){ //XXX very bad to go through async
         .style("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
         .text(function(d) { return d.key; })
         .on("mouseover", mouseovered)
+        .on("click", function(d, i) { window.open('http://www.rri-ict-forum.eu/index.php/User:'+d.name); })
         .on("mouseout", mouseouted);
 
 }, 2000);
@@ -106,6 +105,14 @@ function mouseouted(d) {
 }
 
 d3.select(self.frameElement).style("height", diameter + "px");
+
+function sizeLink(ll,source,target) {
+    for (var i = 0; i < ll.length; i++) {
+        if (ll[i].source === source && ll[i].target === target)
+            return ll[i].size;
+    }
+    return 1;
+}
 
 // Construct clusters from objects names.
 function packageHierarchy(persons, rri) { //TODO da utilizzare gli rri topics
