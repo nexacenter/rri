@@ -1,3 +1,7 @@
+function doCircle(mode) {
+
+$("#circle").html("");
+
 var diameter = 700,
     radius = diameter / 2,
     innerRadius = radius - 120;
@@ -14,7 +18,7 @@ var line = d3.svg.line.radial()
     .radius(function(d) { return d.y; })
     .angle(function(d) { return d.x / 180 * Math.PI; });
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#circle").append("svg")
     .attr("width", diameter)
     .attr("height", diameter)
     .append("g")
@@ -26,6 +30,7 @@ var link = svg.append("g").selectAll(".link"),
 var persons = [];
 var ict = [];
 var rri = [];
+var ssh = [];
 
 $.getJSON('data/persons.json', function(data) {
     data.results.bindings.forEach(function(person) {
@@ -45,6 +50,15 @@ $.getJSON('data/ict-topic.json', function(data) {
     });
 });
 
+$.getJSON('data/ssh-topic.json', function(data) {
+    data.results.bindings.forEach(function(topic) {
+        ssh.push({
+            topic: topic.ssh.value.replace(/.*Special:URIResolver\//g,''),
+            person: topic.name.value.replace('User:','')
+        });
+    });
+});
+
 $.getJSON('data/rri-topic.json', function(data) {
     data.results.bindings.forEach(function(topic) {
         rri.push({
@@ -57,7 +71,24 @@ $.getJSON('data/rri-topic.json', function(data) {
 setTimeout(function(){ //XXX very bad to go through async
 
     var nodes = cluster.nodes(packageHierarchy(persons, rri)),
-        ll = generateLinksWithWeigth(nodes, ict);
+        llict = generateLinksWithWeigth(nodes, ict),
+        llssh = generateLinksWithWeigth(nodes, ssh),
+        llall = llict.concat(llssh),
+        ll;
+
+    switch(mode) {
+        case 'all':
+            ll = llall;
+            break;
+        case 'ict':
+            ll = llict;
+            break;
+        case 'ssh':
+            ll = llssh;
+            break;
+        default:
+            ll = llall;
+    } 
 
     link = link
         .data(bundle(ll))
@@ -138,18 +169,18 @@ function packageHierarchy(persons, rri) { //TODO da utilizzare gli rri topics
     return map[""];
 }
 
-function generateLinksWithWeigth(nodes, ict) {
+function generateLinksWithWeigth(nodes, topics) {
     var allLinks = [],
         links = [];
 
     for (var k = 0; k < nodes.length; k++) {
         var name = nodes[k].name;
-        for (var i = 0; i < ict.length; i++) {
-            if (ict[i].person === name) {
-                for (var j = 0; j < ict.length; j++) {
-                    if (ict[j].topic === ict[i].topic && name !== ict[j].person) {
+        for (var i = 0; i < topics.length; i++) {
+            if (topics[i].person === name) {
+                for (var j = 0; j < topics.length; j++) {
+                    if (topics[j].topic === topics[i].topic && name !== topics[j].person) {
                         for (var l = 0; l < nodes.length; l++) {
-                            if (nodes[l].name == ict[j].person) {
+                            if (nodes[l].name == topics[j].person) {
                                 allLinks.push({source: nodes[k], target: nodes[l]});
                                 break;
                             }
@@ -174,4 +205,5 @@ function generateLinksWithWeigth(nodes, ict) {
         }
     }
     return links;
+}
 }
