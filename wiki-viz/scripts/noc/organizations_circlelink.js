@@ -32,104 +32,93 @@ function doCircle(mode) {
         node = svg.append("g").selectAll(".node");
 
     var persons = [];
-    var ict = [];
-    var rri = [];
-    var ssh = [];
+    var topicOfInterest = [];
 
-    $.getJSON('data/noc/persons.json', function(data) {
-        data.results.bindings.forEach(function(person) {
-            persons.push({
-                name: person.name.value.replace('User:', ''),
-                related: new Array()
-            });
-        });
-    });
+    var endpoint = "http://public-contracts.nexacenter.org/sparql?default-graph-uri=http://noc-wiki.nexacenter.org"
 
-    $.getJSON('data/noc/ict-topic.json', function(data) {
-        data.results.bindings.forEach(function(topic) {
-            ict.push({
-                topic: topic.ict.value.replace(/.*Special:URIResolver\//g, ''),
-                person: topic.name.value.replace('User:', '')
-            });
-        });
+    var findOrgs = ["", "SELECT DISTINCT ?name WHERE { ?center <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> . ?center <http://www.w3.org/2000/01/rdf-schema#label> ?name . ?center <http://xmlns.com/foaf/0.1/topic_interest> ?topic .}"].join(" ");
 
-        $.getJSON('data/noc/topic.json', function(data) {
-            data.results.bindings.forEach(function(topic) {
-                ssh.push({
-                    topic: topic.ssh.value.replace(/.*Special:URIResolver\//g, ''),
-                    person: topic.name.value.replace('User:', '')
+    var findTopic = ["", "SELECT DISTINCT ?name ?t WHERE { ?center <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> . ?center <http://www.w3.org/2000/01/rdf-schema#label> ?name . ?center <http://xmlns.com/foaf/0.1/topic_interest> ?t .}"].join(" ");
+
+    $.ajax({
+        dataType: "jsonp",
+        url: endpoint + "&query=" + encodeURIComponent(findOrgs) + "&format=json",
+        success: function(_data) {
+            _data.results.bindings.forEach(function(person) {
+                persons.push({
+                    name: person.name.value.replace('User:', ''),
+                    related: new Array()
                 });
             });
-            $.getJSON('data/noc/rri-topic.json', function(data) {
-                data.results.bindings.forEach(function(topic) {
-                    rri.push({
-                        topic: topic.rri.value.replace(/.*Special:URIResolver\//g, ''),
-                        person: topic.name.value.replace('User:', '')
+
+            $.ajax({
+                dataType: "jsonp",
+                url: endpoint + "&query=" + encodeURIComponent(findTopic) + "&format=json",
+                success: function(_data) {
+                    _data.results.bindings.forEach(function(topic) {
+                        topicOfInterest.push({
+                            topic: topic.t.value.replace(/.*Special:URIResolver\//g, ''),
+                            person: topic.name.value.replace('User:', '')
+                        });
                     });
-                });
 
-                var nodes = cluster.nodes(packageHierarchy(persons, rri)),
-                    //llict = generateLinksWithWeigth(nodes, ict),
-                    llssh = generateLinksWithWeigth(nodes, ssh),
-                    //llall = llict.concat(llssh),
-                    ll;
 
-                switch (mode) {
-                    case 'all':
-                        ll = llall;
-                        break;
-                    case 'ict':
-                        ll = llict;
-                        break;
-                    case 'ssh':
-                        ll = llssh;
-                        break;
-                    default:
-                        ll = llall;
+                    var nodes = cluster.nodes(packageHierarchy(persons)),
+                        lltopicOfInterest = generateLinksWithWeigth(nodes, topicOfInterest),
+                        //llall = llict.concat(llssh),
+                        ll;
+
+                    switch (mode) {
+                        case 'all':
+                            ll = llall;
+                            break;
+                        case 'ssh':
+                            ll = lltopicOfInterest;
+                            break;
+                        default:
+                            ll = llall;
+                    }
+
+                    link = link
+                        .data(bundle(ll))
+                        .enter().append("path")
+                        .each(function(d) {
+                            d.source = d[0], d.target = d[d.length - 1];
+                        })
+                        .attr("class", "link")
+                        .attr("d", line)
+                        .style("stroke-width", function(d) {
+                            return sizeLink(ll, d.source, d.target);
+                        });
+
+                    node = node
+                        .data(nodes.filter(function(n) {
+                            return !n.children;
+                        }))
+                        .enter().append("text")
+                        .attr("class", "node")
+                        .attr("dy", ".31em")
+                        .attr("transform", function(d) {
+                            return "rotate(" + (d.x - 90) + ")translate(" + (d.y + 8) + ",0)" + (d.x < 180 ? "" : "rotate(180)");
+                        })
+                        .style("text-anchor", function(d) {
+                            return d.x < 180 ? "start" : "end";
+                        })
+                        .text(function(d) {
+                            return d.key;
+                        })
+                        .on("mouseover", mouseovered)
+                        .on("click", function(d, i) {
+                            window.open('http://noc-wiki.nexacenter.org/view/' + d.name);
+                        })
+                        .on("mouseout", mouseouted);
+
+                    d3.select(self.frameElement).style("height", diameter + "px");
+
                 }
-
-                link = link
-                    .data(bundle(ll))
-                    .enter().append("path")
-                    .each(function(d) {
-                        d.source = d[0], d.target = d[d.length - 1];
-                    })
-                    .attr("class", "link")
-                    .attr("d", line)
-                    .style("stroke-width", function(d) {
-                        return sizeLink(ll, d.source, d.target);
-                    });
-
-                node = node
-                    .data(nodes.filter(function(n) {
-                        return !n.children;
-                    }))
-                    .enter().append("text")
-                    .attr("class", "node")
-                    .attr("dy", ".31em")
-                    .attr("transform", function(d) {
-                        return "rotate(" + (d.x - 90) + ")translate(" + (d.y + 8) + ",0)" + (d.x < 180 ? "" : "rotate(180)");
-                    })
-                    .style("text-anchor", function(d) {
-                        return d.x < 180 ? "start" : "end";
-                    })
-                    .text(function(d) {
-                        return d.key;
-                    })
-                    .on("mouseover", mouseovered)
-                    .on("click", function(d, i) {
-                        window.open('http://noc-wiki.nexacenter.org/view/' + d.name);
-                    })
-                    .on("mouseout", mouseouted);
-
             });
-        });
-
-
-
+        }
     });
-
-
 
 
     function mouseovered(d) {
@@ -169,8 +158,6 @@ function doCircle(mode) {
             .classed("node--source", false);
     }
 
-    d3.select(self.frameElement).style("height", diameter + "px");
-
     function sizeLink(ll, source, target) {
         for (var i = 0; i < ll.length; i++) {
             if (ll[i].source === source && ll[i].target === target)
@@ -180,7 +167,7 @@ function doCircle(mode) {
     }
 
     // Construct clusters from objects names.
-    function packageHierarchy(persons, rri) { //TODO da utilizzare gli rri topics
+    function packageHierarchy(persons) { //TODO da utilizzare gli rri topics
         var map = {};
 
         function find(name, data) {

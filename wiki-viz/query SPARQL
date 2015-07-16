@@ -75,7 +75,7 @@ WHERE {
 }
 
 
-=== Topic noc ===
+=== Topic persone noc ===
 
 SELECT DISTINCT ?name ?ssh
 WHERE {
@@ -91,4 +91,22 @@ WHERE {
   ?person a foaf:Person .
   ?person <http://www.w3.org/2000/01/rdf-schema#label> ?name .
   ?person <http://xmlns.com/foaf/0.1/topic_interest> ?topic .  //togliere questa linea per avere tutte le persone
+}
+
+=== Organizzazioni noc che hanno topic ===
+
+SELECT DISTINCT ?name
+WHERE {
+  ?center <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+  ?center <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+  ?center <http://xmlns.com/foaf/0.1/topic_interest> ?topic .
+}
+
+=== Topic organizzazioni noc ===
+
+SELECT DISTINCT ?name ?t
+WHERE {
+  ?center <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+  ?center <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+  ?center <http://xmlns.com/foaf/0.1/topic_interest> ?t .
 }
