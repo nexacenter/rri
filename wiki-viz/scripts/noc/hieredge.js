@@ -118,7 +118,7 @@ function doCircle(mode) {
                     })
                     .on("mouseover", mouseovered)
                     .on("click", function(d, i) {
-                        window.open('http://www.rri-ict-forum.eu/index.php/User:' + d.name);
+                        window.open('http://noc-wiki.nexacenter.org/view/' + d.name);
                     })
                     .on("mouseout", mouseouted);
 
@@ -144,6 +144,9 @@ function doCircle(mode) {
             .classed("link--target", function(l) {
                 if (l.target === d) return l.source.source = true;
             })
+            .style("opacity", function(l) {
+                if (l.target !== d) return 0.1;
+            })
             .filter(function(l) {
                 return l.target === d || l.source === d;
             })
@@ -160,6 +163,7 @@ function doCircle(mode) {
     function mouseouted(d) {
         link
             .classed("link--target", false)
+            .style("opacity", 1);
 
         node
             .classed("node--source", false);
@@ -206,9 +210,6 @@ function doCircle(mode) {
     function generateLinksWithWeigth(nodes, topics) {
         var allLinks = [],
             links = [];
-
-console.log(nodes);
-console.log(topics);
 
         for (var k = 0; k < nodes.length; k++) {
             var name = nodes[k].name;

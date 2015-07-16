@@ -83,3 +83,12 @@ WHERE {
   ?person <http://xmlns.com/foaf/0.1/topic_interest> ?ssh .
   ?person <http://www.w3.org/2000/01/rdf-schema#label> ?name .
 }
+
+=== Persone noc che hanno compilato topic ===
+
+SELECT DISTINCT ?name
+WHERE {
+  ?person a foaf:Person .
+  ?person <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+  ?person <http://xmlns.com/foaf/0.1/topic_interest> ?topic .  //togliere questa linea per avere tutte le persone
+}
