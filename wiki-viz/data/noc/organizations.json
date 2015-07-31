@@ -1,0 +1,1472 @@
+{
+    "Alexander von Humboldt Institute for Internet and Society (HIIG)": [
+        {
+            "key": "Internet Society",
+            "score": "0.7913998"
+        },
+        {
+            "key": "Internet Hall of Fame",
+            "score": "0.71778566"
+        },
+        {
+            "key": "Internet of Things",
+            "score": "0.713389"
+        },
+        {
+            "key": "Centre for Internet and Society (India)",
+            "score": "0.6692594"
+        },
+        {
+            "key": "Internet",
+            "score": "0.65662384"
+        },
+        {
+            "key": "Information society",
+            "score": "0.6430685"
+        },
+        {
+            "key": "World Internet Project",
+            "score": "0.64049834"
+        }
+    ],
+    "Berkman Center for Internet & Society": [
+        {
+            "key": "Cyberspace",
+            "score": "0.59885967"
+        },
+        {
+            "key": "Berkman Center for Internet & Society",
+            "score": "0.5575448"
+        },
+        {
+            "key": "Educational assessment",
+            "score": "0.4655622"
+        },
+        {
+            "key": "Social control",
+            "score": "0.41662538"
+        },
+        {
+            "key": "Norm (social)",
+            "score": "0.3970927"
+        },
+        {
+            "key": "Normative",
+            "score": "0.36819577"
+        },
+        {
+            "key": "International sanctions",
+            "score": "0.36384252"
+        }
+    ],
+    "Access to Knowledge for Development Center (A2K4D)": [
+        {
+            "key": "Knowledge",
+            "score": "0.60152465"
+        },
+        {
+            "key": "Access to knowledge movement",
+            "score": "0.51612574"
+        },
+        {
+            "key": "Traditional knowledge",
+            "score": "0.4983062"
+        },
+        {
+            "key": "Digital divide",
+            "score": "0.47283795"
+        },
+        {
+            "key": "International development",
+            "score": "0.46618977"
+        },
+        {
+            "key": "Civil society",
+            "score": "0.45886824"
+        },
+        {
+            "key": "Public policy",
+            "score": "0.4556327"
+        }
+    ],
+    "Center for Advanced Research in Information and Communication Technologies & Society (ICT&S Center)": [
+        {
+            "key": "Innovation",
+            "score": "0.9312433"
+        },
+        {
+            "key": "Social innovation",
+            "score": "0.91528213"
+        },
+        {
+            "key": "Emerging technologies",
+            "score": "0.89509976"
+        },
+        {
+            "key": "Creativity",
+            "score": "0.83976054"
+        },
+        {
+            "key": "Problem solving",
+            "score": "0.76312107"
+        },
+        {
+            "key": "Society",
+            "score": "0.76110804"
+        },
+        {
+            "key": "Human behavior",
+            "score": "0.75756466"
+        }
+    ],
+    "Center for Global Communication Studies": [
+        {
+            "key": "Center for Global Communication Studies",
+            "score": "1.2645543"
+        },
+        {
+            "key": "Comparative law",
+            "score": "0.776721"
+        },
+        {
+            "key": "Media law",
+            "score": "0.77234083"
+        },
+        {
+            "key": "Public policy",
+            "score": "0.74386483"
+        },
+        {
+            "key": "International development",
+            "score": "0.72726566"
+        },
+        {
+            "key": "International relations",
+            "score": "0.704842"
+        },
+        {
+            "key": "International education",
+            "score": "0.7034135"
+        }
+    ],
+    "Center for Internet Studies and Digital Life, School of Communication": [
+        {
+            "key": "Digital media",
+            "score": "0.8822657"
+        },
+        {
+            "key": "Digital literacy",
+            "score": "0.8155149"
+        },
+        {
+            "key": "Digital library",
+            "score": "0.7931671"
+        },
+        {
+            "key": "Internet Society",
+            "score": "0.7916236"
+        },
+        {
+            "key": "Digital divide",
+            "score": "0.79061186"
+        },
+        {
+            "key": "Digital humanities",
+            "score": "0.76699233"
+        },
+        {
+            "key": "Internet",
+            "score": "0.76498467"
+        }
+    ],
+    "Center for Law & Technology of Seoul National University": [
+        {
+            "key": "Privacy",
+            "score": "0.5422271"
+        },
+        {
+            "key": "Snus",
+            "score": "0.4987314"
+        },
+        {
+            "key": "Seoul National University",
+            "score": "0.4799023"
+        },
+        {
+            "key": "Intellectual property",
+            "score": "0.46819934"
+        },
+        {
+            "key": "Southern Nazarene University",
+            "score": "0.4524026"
+        },
+        {
+            "key": "Internet governance",
+            "score": "0.4323113"
+        },
+        {
+            "key": "Internet Society",
+            "score": "0.42241028"
+        }
+    ],
+    "Center for Media, Data and Society (CMDS)": [
+        {
+            "key": "Policy",
+            "score": "0.78115886"
+        },
+        {
+            "key": "Public policy",
+            "score": "0.77913165"
+        },
+        {
+            "key": "Policy analysis",
+            "score": "0.771983"
+        },
+        {
+            "key": "Education policy",
+            "score": "0.7625226"
+        },
+        {
+            "key": "Policy studies",
+            "score": "0.75839263"
+        },
+        {
+            "key": "Lakas–CMD (1991)",
+            "score": "0.6943905"
+        },
+        {
+            "key": "Center for Media and Democracy",
+            "score": "0.666629"
+        }
+    ],
+    "Center for Studies on Freedom of Expression and Access to Information": [
+        {
+            "key": "Freedom House",
+            "score": "0.8330594"
+        },
+        {
+            "key": "Universal Declaration of Human Rights",
+            "score": "0.81932545"
+        },
+        {
+            "key": "Civil society",
+            "score": "0.74093777"
+        },
+        {
+            "key": "Democracy",
+            "score": "0.72652936"
+        },
+        {
+            "key": "Human rights",
+            "score": "0.7221111"
+        },
+        {
+            "key": "Freedom of speech",
+            "score": "0.7013486"
+        },
+        {
+            "key": "Non-governmental organization",
+            "score": "0.6956897"
+        }
+    ],
+    "Centre for Communication and Computing": [
+        {
+            "key": "Computer-mediated communication",
+            "score": "0.86412054"
+        },
+        {
+            "key": "Social innovation",
+            "score": "0.85272276"
+        },
+        {
+            "key": "Community of practice",
+            "score": "0.83768874"
+        },
+        {
+            "key": "Innovation",
+            "score": "0.80934787"
+        },
+        {
+            "key": "Learning sciences",
+            "score": "0.7941894"
+        },
+        {
+            "key": "Educational technology",
+            "score": "0.79255617"
+        },
+        {
+            "key": "Collaborative partnerships",
+            "score": "0.791498"
+        }
+    ],
+    "Center for the Study of New Media and Society (CSNMS)": [
+        {
+            "key": "Social entrepreneurship",
+            "score": "0.6734313"
+        },
+        {
+            "key": "Web 2.0",
+            "score": "0.6471161"
+        },
+        {
+            "key": "Social media",
+            "score": "0.6446833"
+        },
+        {
+            "key": "Digital media",
+            "score": "0.6429673"
+        },
+        {
+            "key": "Computer-mediated communication",
+            "score": "0.6362713"
+        },
+        {
+            "key": "New media",
+            "score": "0.6316299"
+        },
+        {
+            "key": "Berkman Center for Internet & Society",
+            "score": "0.6245365"
+        }
+    ],
+    "Centre for Communication Governance": [
+        {
+            "key": "University of Delhi",
+            "score": "0.77944624"
+        },
+        {
+            "key": "National Law University, Delhi",
+            "score": "0.75228727"
+        },
+        {
+            "key": "New Delhi",
+            "score": "0.70623726"
+        },
+        {
+            "key": "National Law Institute University",
+            "score": "0.7019884"
+        },
+        {
+            "key": "University School of Law and Legal Studies",
+            "score": "0.6804495"
+        },
+        {
+            "key": "Jawaharlal Nehru University",
+            "score": "0.66921514"
+        },
+        {
+            "key": "Delhi",
+            "score": "0.6479482"
+        }
+    ],
+    "Centre for Internet & Society (CIS), Bangalore": [
+        {
+            "key": "Open content",
+            "score": "1.2531542"
+        },
+        {
+            "key": "Open access",
+            "score": "1.2052752"
+        },
+        {
+            "key": "Open knowledge",
+            "score": "1.097176"
+        },
+        {
+            "key": "Open education",
+            "score": "1.073973"
+        },
+        {
+            "key": "Information privacy",
+            "score": "1.049113"
+        },
+        {
+            "key": "Science Commons",
+            "score": "1.0455145"
+        },
+        {
+            "key": "Open educational resources",
+            "score": "1.03957"
+        }
+    ],
+    "Centre for Information Technology Law Studies (CEDI)": [
+        {
+            "key": "University of Chile",
+            "score": "0.63935167"
+        },
+        {
+            "key": "Universidad Michoacana de San Nicolás de Hidalgo",
+            "score": "0.61553395"
+        },
+        {
+            "key": "Technology",
+            "score": "0.6154441"
+        },
+        {
+            "key": "Universidade Federal do Rio Grande do Sul",
+            "score": "0.58664745"
+        },
+        {
+            "key": "Saint Thomas Aquinas University",
+            "score": "0.5751348"
+        },
+        {
+            "key": "Pontifical Catholic University of Chile",
+            "score": "0.57426274"
+        },
+        {
+            "key": "Comparative law",
+            "score": "0.55520964"
+        }
+    ],
+    "Centre for Internet, Smartphone and Society": [
+        {
+            "key": "Dhaka",
+            "score": "0.7449371"
+        },
+        {
+            "key": "Bangladesh",
+            "score": "0.6601481"
+        },
+        {
+            "key": "University of Dhaka",
+            "score": "0.587625"
+        },
+        {
+            "key": "Internet",
+            "score": "0.56252766"
+        },
+        {
+            "key": "Nonprofit organization",
+            "score": "0.54737055"
+        },
+        {
+            "key": "International development",
+            "score": "0.54415"
+        },
+        {
+            "key": "Bengali language",
+            "score": "0.54382503"
+        }
+    ],
+    "Centro de Tecnologia y Sociedad": [
+        {
+            "key": "Information and communications technology",
+            "score": "0.7686098"
+        },
+        {
+            "key": "Information and communication technologies for development",
+            "score": "0.6529404"
+        },
+        {
+            "key": "World Summit on the Information Society",
+            "score": "0.63348657"
+        },
+        {
+            "key": "CGA (Advanced Management Centre)",
+            "score": "0.62144554"
+        },
+        {
+            "key": "Digital divide",
+            "score": "0.5787512"
+        },
+        {
+            "key": "E-Government",
+            "score": "0.576266"
+        },
+        {
+            "key": "Internet Governance Forum",
+            "score": "0.5352159"
+        }
+    ],
+    "Chatham House": [
+        {
+            "key": "Chatham House Rule",
+            "score": "1.0085068"
+        },
+        {
+            "key": "Chatham House",
+            "score": "0.83736074"
+        },
+        {
+            "key": "Overseas Development Institute",
+            "score": "0.81647325"
+        },
+        {
+            "key": "Think tank",
+            "score": "0.81061745"
+        },
+        {
+            "key": "International development",
+            "score": "0.8054225"
+        },
+        {
+            "key": "Public policy",
+            "score": "0.73214936"
+        },
+        {
+            "key": "International relations",
+            "score": "0.73006165"
+        }
+    ],
+    "Digital Center (Centrum Cyfrowe), Warsaw": [
+        {
+            "key": "Critical theory",
+            "score": "0.5465785"
+        },
+        {
+            "key": "Economic growth",
+            "score": "0.52610534"
+        },
+        {
+            "key": "Social change",
+            "score": "0.5224251"
+        },
+        {
+            "key": "Society",
+            "score": "0.5205508"
+        },
+        {
+            "key": "Theory",
+            "score": "0.5103813"
+        },
+        {
+            "key": "Information",
+            "score": "0.50068146"
+        },
+        {
+            "key": "Interdisciplinarity",
+            "score": "0.4877411"
+        }
+    ],
+    "DiploFoundation": [
+        {
+            "key": "DiploFoundation",
+            "score": "1.5264387"
+        },
+        {
+            "key": "Internet governance",
+            "score": "0.7477373"
+        },
+        {
+            "key": "Diplo",
+            "score": "0.5986057"
+        },
+        {
+            "key": "Capacity building",
+            "score": "0.5414944"
+        },
+        {
+            "key": "Geneva",
+            "score": "0.5040064"
+        },
+        {
+            "key": "Internet",
+            "score": "0.5030726"
+        },
+        {
+            "key": "Capacity development",
+            "score": "0.4941108"
+        }
+    ],
+    "Global Public Policy Institute": [
+        {
+            "key": "Think tank",
+            "score": "0.84826726"
+        },
+        {
+            "key": "International security",
+            "score": "0.78279227"
+        },
+        {
+            "key": "Global governance",
+            "score": "0.77344346"
+        },
+        {
+            "key": "International development",
+            "score": "0.75651354"
+        },
+        {
+            "key": "Global politics",
+            "score": "0.74757606"
+        },
+        {
+            "key": "Education policy",
+            "score": "0.74351615"
+        },
+        {
+            "key": "Public policy",
+            "score": "0.7413697"
+        }
+    ],
+    "Haifa Center for Law & Technology": [
+        {
+            "key": "Haifa Center for Law & Technology",
+            "score": "3.949083"
+        },
+        {
+            "key": "University of Haifa",
+            "score": "1.1282967"
+        },
+        {
+            "key": "Technion – Israel Institute of Technology",
+            "score": "0.7038956"
+        },
+        {
+            "key": "Haifa",
+            "score": "0.6549856"
+        },
+        {
+            "key": "Technology transfer",
+            "score": "0.6443224"
+        },
+        {
+            "key": "Intellectual property",
+            "score": "0.63621175"
+        },
+        {
+            "key": "Technology",
+            "score": "0.5952978"
+        }
+    ],
+    "Hans Bredow Institut": [
+        {
+            "key": "Hans-Bredow-Institut",
+            "score": "1.2957604"
+        },
+        {
+            "key": "Nordwestdeutscher Rundfunk",
+            "score": "1.0644133"
+        },
+        {
+            "key": "Norddeutscher Rundfunk",
+            "score": "0.6218478"
+        },
+        {
+            "key": "Heinrich Pette Institute",
+            "score": "0.6199454"
+        },
+        {
+            "key": "University of Hamburg",
+            "score": "0.5931794"
+        },
+        {
+            "key": "Westdeutscher Rundfunk",
+            "score": "0.5920209"
+        },
+        {
+            "key": "Public broadcasting",
+            "score": "0.55015665"
+        }
+    ],
+    "Information Society Project at Yale Law School": [
+        {
+            "key": "Information Society Project",
+            "score": "1.7051617"
+        },
+        {
+            "key": "Privacy",
+            "score": "0.9705826"
+        },
+        {
+            "key": "Internet service provider",
+            "score": "0.93816715"
+        },
+        {
+            "key": "Electronic Privacy Information Center",
+            "score": "0.8941913"
+        },
+        {
+            "key": "Stanford Center for Internet and Society",
+            "score": "0.8868856"
+        },
+        {
+            "key": "Center for Democracy and Technology",
+            "score": "0.85806066"
+        },
+        {
+            "key": "Jack Balkin",
+            "score": "0.85285527"
+        }
+    ],
+    "Institute for Information Law (IVIR)": [
+        {
+            "key": "Media law",
+            "score": "1.1099691"
+        },
+        {
+            "key": "Privacy",
+            "score": "1.0191251"
+        },
+        {
+            "key": "Intellectual property",
+            "score": "0.96479213"
+        },
+        {
+            "key": "Entertainment law",
+            "score": "0.9064196"
+        },
+        {
+            "key": "Privacy law",
+            "score": "0.9034098"
+        },
+        {
+            "key": "Family law",
+            "score": "0.8828732"
+        },
+        {
+            "key": "Legal aspects of computing",
+            "score": "0.84603983"
+        }
+    ],
+    "Institute for Information, Telecommunication and Media Law (ITM)": [
+        {
+            "key": "European Research Center for Information Systems",
+            "score": "1.2071055"
+        },
+        {
+            "key": "Institute for Information, Telecommunication and Media Law",
+            "score": "1.0781301"
+        },
+        {
+            "key": "University of Münster",
+            "score": "0.8524408"
+        },
+        {
+            "key": "Public law",
+            "score": "0.8440902"
+        },
+        {
+            "key": "North Rhine-Westphalia",
+            "score": "0.8307325"
+        },
+        {
+            "key": "Münster",
+            "score": "0.74917495"
+        },
+        {
+            "key": "Law",
+            "score": "0.7237763"
+        }
+    ],
+    "Institute for Internet Policy & Law (IIPL)": [
+        {
+            "key": "Internet Society",
+            "score": "0.7184035"
+        },
+        {
+            "key": "Internet Governance Forum",
+            "score": "0.66495246"
+        },
+        {
+            "key": "Internet governance",
+            "score": "0.66096663"
+        },
+        {
+            "key": "Intellectual property",
+            "score": "0.5908164"
+        },
+        {
+            "key": "ICANN",
+            "score": "0.55149096"
+        },
+        {
+            "key": "Internet",
+            "score": "0.52828217"
+        },
+        {
+            "key": "Knowledge Ecology International",
+            "score": "0.52807266"
+        }
+    ],
+    "Institute for Technology & Society (ITS), Rio de Janeiro": [
+        {
+            "key": "Digital divide",
+            "score": "1.0760978"
+        },
+        {
+            "key": "Innovation",
+            "score": "1.0674509"
+        },
+        {
+            "key": "Emerging technologies",
+            "score": "1.0647004"
+        },
+        {
+            "key": "Information society",
+            "score": "1.0616531"
+        },
+        {
+            "key": "Privacy",
+            "score": "1.0390857"
+        },
+        {
+            "key": "Technology",
+            "score": "1.03738"
+        },
+        {
+            "key": "Knowledge economy",
+            "score": "1.0350361"
+        }
+    ],
+    "Interdisciplinary Centre for Law and ICT (ICRI)": [
+        {
+            "key": "Privacy",
+            "score": "0.8442876"
+        },
+        {
+            "key": "Katholieke Universiteit Leuven",
+            "score": "0.7126087"
+        },
+        {
+            "key": "Intellectual property",
+            "score": "0.70644635"
+        },
+        {
+            "key": "Information privacy",
+            "score": "0.6424988"
+        },
+        {
+            "key": "Internet",
+            "score": "0.6269655"
+        },
+        {
+            "key": "Internet service provider",
+            "score": "0.61128724"
+        },
+        {
+            "key": "Leuven",
+            "score": "0.6098193"
+        }
+    ],
+    "Internet Interdisciplinary Institute (IN3)": [
+        {
+            "key": "Oxford Internet Institute",
+            "score": "0.940808"
+        },
+        {
+            "key": "Open University of Catalonia",
+            "score": "0.8928661"
+        },
+        {
+            "key": "Nanyang Technological University",
+            "score": "0.789079"
+        },
+        {
+            "key": "Sholokhov Moscow State University for Humanities",
+            "score": "0.71068335"
+        },
+        {
+            "key": "Northwestern University in Qatar",
+            "score": "0.6906517"
+        },
+        {
+            "key": "Interdisciplinarity",
+            "score": "0.6824676"
+        },
+        {
+            "key": "Institutional repository",
+            "score": "0.66087157"
+        }
+    ],
+    "Internet Policy Observatory Pakistan": [
+        {
+            "key": "Information and communications technology",
+            "score": "1.0178959"
+        },
+        {
+            "key": "Public policy",
+            "score": "0.92456293"
+        },
+        {
+            "key": "World Summit on the Information Society",
+            "score": "0.87515163"
+        },
+        {
+            "key": "Information society",
+            "score": "0.8743313"
+        },
+        {
+            "key": "Information policy",
+            "score": "0.8648881"
+        },
+        {
+            "key": "Privacy",
+            "score": "0.8359296"
+        },
+        {
+            "key": "Digital divide",
+            "score": "0.83396333"
+        }
+    ],
+    "Keio International Project for Internet & Society": [
+        {
+            "key": "Keio University",
+            "score": "1.0352122"
+        },
+        {
+            "key": "Keio University Shonan Fujisawa Campus",
+            "score": "0.71631575"
+        },
+        {
+            "key": "International development",
+            "score": "0.60645473"
+        },
+        {
+            "key": "Public policy",
+            "score": "0.60605437"
+        },
+        {
+            "key": "Indian School of Business",
+            "score": "0.60285485"
+        },
+        {
+            "key": "Internet governance",
+            "score": "0.58167636"
+        },
+        {
+            "key": "John F. Kennedy School of Government",
+            "score": "0.57967806"
+        }
+    ],
+    "IT Law Institute": [
+        {
+            "key": "Comparative law",
+            "score": "0.98870045"
+        },
+        {
+            "key": "Istanbul Bilgi University",
+            "score": "0.9549166"
+        },
+        {
+            "key": "Constitutional law",
+            "score": "0.93443024"
+        },
+        {
+            "key": "Institution",
+            "score": "0.9280272"
+        },
+        {
+            "key": "International law",
+            "score": "0.9071366"
+        },
+        {
+            "key": "Istanbul Technical University",
+            "score": "0.90635735"
+        },
+        {
+            "key": "Public law",
+            "score": "0.8831971"
+        }
+    ],
+    "Laboratory for Internet Studies (LINIS)": [
+        {
+            "key": "Social science",
+            "score": "0.8795423"
+        },
+        {
+            "key": "Computer science",
+            "score": "0.82821566"
+        },
+        {
+            "key": "Information systems",
+            "score": "0.79661447"
+        },
+        {
+            "key": "Earth science",
+            "score": "0.78525966"
+        },
+        {
+            "key": "Internet",
+            "score": "0.78508073"
+        },
+        {
+            "key": "Creativity",
+            "score": "0.77997756"
+        },
+        {
+            "key": "Machine learning",
+            "score": "0.7732117"
+        }
+    ],
+    "Media Change & Innovation Division, IPMZ": [
+        {
+            "key": "Digital media",
+            "score": "1.024436"
+        },
+        {
+            "key": "Media studies",
+            "score": "1.0198015"
+        },
+        {
+            "key": "Mass media",
+            "score": "1.010226"
+        },
+        {
+            "key": "Technological change",
+            "score": "0.95410156"
+        },
+        {
+            "key": "Social media",
+            "score": "0.93354577"
+        },
+        {
+            "key": "Electronic media",
+            "score": "0.9163021"
+        },
+        {
+            "key": "Social change",
+            "score": "0.8941831"
+        }
+    ],
+    "MIT Center for Civic Media": [
+        {
+            "key": "Center for Civic Media",
+            "score": "1.2119184"
+        },
+        {
+            "key": "MIT Media Lab",
+            "score": "0.8325161"
+        },
+        {
+            "key": "Civic engagement",
+            "score": "0.75434434"
+        },
+        {
+            "key": "Digital media",
+            "score": "0.6444371"
+        },
+        {
+            "key": "Henry Jenkins",
+            "score": "0.60117745"
+        },
+        {
+            "key": "Collaborative learning",
+            "score": "0.581944"
+        },
+        {
+            "key": "New media",
+            "score": "0.5694792"
+        }
+    ],
+    "Nesta Innovation lab on digital technologies and future Internet": [
+        {
+            "key": "Social innovation",
+            "score": "1.498363"
+        },
+        {
+            "key": "Open innovation",
+            "score": "1.2369851"
+        },
+        {
+            "key": "Innovation",
+            "score": "1.1324157"
+        },
+        {
+            "key": "Innovation system",
+            "score": "1.0574441"
+        },
+        {
+            "key": "National innovation system",
+            "score": "0.9133262"
+        },
+        {
+            "key": "Ashoka: Innovators for the Public",
+            "score": "0.8893805"
+        },
+        {
+            "key": "Nesta (charity)",
+            "score": "0.8738209"
+        }
+    ],
+    "Nexa Center for Internet & Society": [
+        {
+            "key": "Communia",
+            "score": "2.1470687"
+        },
+        {
+            "key": "Juan Carlos De Martin",
+            "score": "1.804951"
+        },
+        {
+            "key": "Neubot",
+            "score": "1.5314785"
+        },
+        {
+            "key": "NEXA Center for Internet and Society",
+            "score": "1.4681749"
+        },
+        {
+            "key": "Network performance",
+            "score": "0.8353886"
+        },
+        {
+            "key": "Creative Commons",
+            "score": "0.7971451"
+        },
+        {
+            "key": "European Commission",
+            "score": "0.7380555"
+        }
+    ],
+    "Oxford Internet Institute (OII)": [
+        {
+            "key": "World Internet Project",
+            "score": "1.4715672"
+        },
+        {
+            "key": "Oxford Internet Institute",
+            "score": "1.2211119"
+        },
+        {
+            "key": "William H. Dutton",
+            "score": "1.0346097"
+        },
+        {
+            "key": "Reuters Institute for the Study of Journalism",
+            "score": "0.8682449"
+        },
+        {
+            "key": "Policy & Internet",
+            "score": "0.85073096"
+        },
+        {
+            "key": "Recognised Independent Centre",
+            "score": "0.82975596"
+        },
+        {
+            "key": "St Cross College, Oxford",
+            "score": "0.8173607"
+        }
+    ],
+    "Quello Center": [
+        {
+            "key": "Public policy",
+            "score": "0.82378864"
+        },
+        {
+            "key": "Social policy",
+            "score": "0.81901664"
+        },
+        {
+            "key": "Monetary policy",
+            "score": "0.76390994"
+        },
+        {
+            "key": "Economic policy",
+            "score": "0.750525"
+        },
+        {
+            "key": "Policy",
+            "score": "0.7501323"
+        },
+        {
+            "key": "Digital media",
+            "score": "0.7148978"
+        },
+        {
+            "key": "Policy analysis",
+            "score": "0.68655634"
+        }
+    ],
+    "SCRIPT Centre for IT and IP Law, School of Law": [
+        {
+            "key": "SCRIPT (AHRC Centre)",
+            "score": "1.1451262"
+        },
+        {
+            "key": "SCRIPT-ed",
+            "score": "1.0014526"
+        },
+        {
+            "key": "Latin script",
+            "score": "0.83623016"
+        },
+        {
+            "key": "Arts and Humanities Research Council",
+            "score": "0.7137112"
+        },
+        {
+            "key": "Arabic script",
+            "score": "0.6633934"
+        },
+        {
+            "key": "Distance education",
+            "score": "0.63957596"
+        },
+        {
+            "key": "Writing system",
+            "score": "0.6382975"
+        }
+    ],
+    "Research ICT Africa": [
+        {
+            "key": "Information and communications technology",
+            "score": "1.1229084"
+        },
+        {
+            "key": "Public policy",
+            "score": "1.021356"
+        },
+        {
+            "key": "Governance",
+            "score": "1.0146745"
+        },
+        {
+            "key": "International development",
+            "score": "0.9655805"
+        },
+        {
+            "key": "Policy analysis",
+            "score": "0.94710886"
+        },
+        {
+            "key": "Capacity building",
+            "score": "0.94509554"
+        },
+        {
+            "key": "E-Government",
+            "score": "0.9421116"
+        }
+    ],
+    "Singapore Internet Research Centre, Wee Kim Wee School of Communication and Information": [
+        {
+            "key": "Nanyang Technological University",
+            "score": "1.4778736"
+        },
+        {
+            "key": "National University of Singapore",
+            "score": "1.1790028"
+        },
+        {
+            "key": "Internet",
+            "score": "1.125574"
+        },
+        {
+            "key": "Internet Society",
+            "score": "1.114849"
+        },
+        {
+            "key": "Oxford Internet Institute",
+            "score": "1.0672282"
+        },
+        {
+            "key": "Internet service provider",
+            "score": "1.0630038"
+        },
+        {
+            "key": "National Institute of Education",
+            "score": "1.032275"
+        }
+    ],
+    "Swedish Law and Informatics Research Institute (IRI)": [
+        {
+            "key": "Legal informatics",
+            "score": "1.4495372"
+        },
+        {
+            "key": "Institutet för rättsinformatik",
+            "score": "1.3579305"
+        },
+        {
+            "key": "Informatics (academic field)",
+            "score": "1.251772"
+        },
+        {
+            "key": "Information and communications technology",
+            "score": "1.128349"
+        },
+        {
+            "key": "Social informatics",
+            "score": "1.1246985"
+        },
+        {
+            "key": "Health informatics",
+            "score": "1.0113935"
+        },
+        {
+            "key": "Legal aspects of computing",
+            "score": "0.99343294"
+        }
+    ],
+    "Syntagma": [
+        {
+            "key": "World Summit on the Information Society",
+            "score": "0.5420046"
+        },
+        {
+            "key": "Seminar",
+            "score": "0.52065974"
+        },
+        {
+            "key": "Legal awareness",
+            "score": "0.5189855"
+        },
+        {
+            "key": "Capacity building",
+            "score": "0.5127055"
+        },
+        {
+            "key": "Legal aid",
+            "score": "0.51072234"
+        },
+        {
+            "key": "Think tank",
+            "score": "0.49905258"
+        },
+        {
+            "key": "Information and communications technology",
+            "score": "0.49594378"
+        }
+    ],
+    "The Center for Technology & Society (CTS)": [
+        {
+            "key": "E-democracy",
+            "score": "1.1719092"
+        },
+        {
+            "key": "Technology and society",
+            "score": "1.0178992"
+        },
+        {
+            "key": "Public policy",
+            "score": "0.9954256"
+        },
+        {
+            "key": "Governance",
+            "score": "0.98895407"
+        },
+        {
+            "key": "International development",
+            "score": "0.9853987"
+        },
+        {
+            "key": "Technological change",
+            "score": "0.9840678"
+        },
+        {
+            "key": "Digital divide",
+            "score": "0.9774976"
+        }
+    ],
+    "The Governance Lab": [
+        {
+            "key": "Stefaan Verhulst",
+            "score": "0.67936206"
+        },
+        {
+            "key": "John Brademas Center for the Study of Congress",
+            "score": "0.63383985"
+        },
+        {
+            "key": "Taub Urban Research Center",
+            "score": "0.5662303"
+        },
+        {
+            "key": "Problem solving",
+            "score": "0.5389964"
+        },
+        {
+            "key": "GovLab",
+            "score": "0.5258891"
+        },
+        {
+            "key": "Research Center for Leadership in Action",
+            "score": "0.47698602"
+        },
+        {
+            "key": "Collective action",
+            "score": "0.4281657"
+        }
+    ],
+    "The New Research on Digital Societies (NeRDS group)": [
+        {
+            "key": "Social network analysis",
+            "score": "0.6910812"
+        },
+        {
+            "key": "Virtual community",
+            "score": "0.5963331"
+        },
+        {
+            "key": "Digital library",
+            "score": "0.59129584"
+        },
+        {
+            "key": "Digital anthropology",
+            "score": "0.5909013"
+        },
+        {
+            "key": "Cultural anthropology",
+            "score": "0.581814"
+        },
+        {
+            "key": "Sociology of the Internet",
+            "score": "0.5730697"
+        },
+        {
+            "key": "Ethnography",
+            "score": "0.55740654"
+        }
+    ],
+    "Web Science Institute": [
+        {
+            "key": "Web 2.0",
+            "score": "1.3134915"
+        },
+        {
+            "key": "World Wide Web Consortium",
+            "score": "1.2260178"
+        },
+        {
+            "key": "World Wide Web",
+            "score": "1.2112261"
+        },
+        {
+            "key": "Semantic Web",
+            "score": "1.1894656"
+        },
+        {
+            "key": "Web page",
+            "score": "1.1791899"
+        },
+        {
+            "key": "Web Science Trust",
+            "score": "1.1704869"
+        },
+        {
+            "key": "Engineering and Physical Sciences Research Council",
+            "score": "1.1635759"
+        }
+    ],
+    "World Trade Institute (WTI)": [
+        {
+            "key": "NCCR Trade Regulation",
+            "score": "1.4732348"
+        },
+        {
+            "key": "World Trade Institute",
+            "score": "1.3355652"
+        },
+        {
+            "key": "International political economy",
+            "score": "0.96066254"
+        },
+        {
+            "key": "International trade",
+            "score": "0.7810106"
+        },
+        {
+            "key": "World Trade Organization",
+            "score": "0.77751464"
+        },
+        {
+            "key": "International economics",
+            "score": "0.75680685"
+        },
+        {
+            "key": "Global change",
+            "score": "0.70721656"
+        }
+    ]
+}
